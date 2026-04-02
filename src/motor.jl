@@ -83,11 +83,9 @@ function ejecutar_division(
         @info "Ninguna subconfiguración alcanzó el umbral de acierto para la solución global"
     end
 
-    # 5. Entrenar subredes (solo si no se canceló)
-    if !debe_parar(señal_parada)
-        entrenar_mapa!(mapa, datos_entrenamiento, datos_validacion;
-            epochs=epochs, lr=lr, batch_size=batch_size, paciencia=paciencia)
-    end
+    # 5. Entrenar subredes (siempre, incluso tras cancelación parcial)
+    entrenar_mapa!(mapa, datos_entrenamiento, datos_validacion;
+        epochs=epochs, lr=lr, batch_size=batch_size, paciencia=paciencia)
 
     return mapa
 end
