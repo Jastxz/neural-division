@@ -215,17 +215,19 @@ Con exploración parcial, solo se evalúan subredes con 1-2 entradas. **La explo
 
 ### Hallazgos principales
 
-1. **Feature selection emergente**: el método descubre qué entradas son relevantes. Wine: 13→4 features; Seeds: Area (94%); Glass: Refractive Index (85%).
+1. **Comprensión del problema**: el método revela la estructura interna de los datos. En Glass descubre que el Índice de Refracción es el predictor dominante (85%); en Seeds, que el Área del grano separa las variedades (94%); en Pima, que la Glucosa es el factor clave (80%). Estos descubrimientos coinciden con el conocimiento experto de cada dominio, validando el método como herramienta de análisis.
 
-2. **Regularización implícita**: en Glass (+37pp), Seeds (+1pp), Haberman (+1pp), Espirales (+2pp), las subredes superan a la referencia completa.
+2. **Feature selection emergente**: como subproducto de buscar subredes simples, el método identifica qué entradas son necesarias y cuáles son redundantes. En Wine reduce de 13 a 4 features; en Cancer identifica Radio y Área como predictores primarios de malignidad.
 
-3. **Descomposición de problemas**: el mapa de soluciones parciales refleja la estructura real del problema.
+3. **Regularización implícita**: en Glass (+37pp), Ecoli (+11pp), Seeds (+1pp), Haberman (+1pp) y Espirales (+2pp), las subredes superan a la referencia completa. Menos parámetros = mejor generalización, especialmente con muchas clases o pocas muestras.
 
-4. **Interpretabilidad**: el mapa dice qué features necesita cada salida y cuántas neuronas son suficientes.
+4. **Descomposición de problemas**: el mapa de soluciones parciales muestra cómo se descompone el problema. En el multi-salida AND+OR+XOR, identifica que XOR necesita ambas entradas mientras AND/OR se resuelven con una. Cada subconjunto de salidas tiene su subred óptima.
 
-5. **Exploración exhaustiva como garantía**: con espacios manejables (hasta ~10⁵), el método garantiza la subred óptima. El valor real está en la búsqueda completa.
+5. **Saber cuándo no simplificar**: en Pima Diabetes y Banknote, el método selecciona correctamente la red completa, reconociendo que todas las features aportan información complementaria. Esto es tan informativo como encontrar subredes — confirma que el problema requiere todas las variables.
 
-6. **Sensibilidad al umbral**: rango óptimo típicamente 0.4-0.5.
+6. **Exploración exhaustiva como garantía**: con espacios manejables (hasta ~10⁵ subconfiguraciones), el método garantiza la subred óptima y proporciona un mapa completo de la relación entradas-salidas. El valor real está en la búsqueda completa.
+
+Para un análisis detallado de cada dataset, ver [benchmarks/ANALISIS.md](benchmarks/ANALISIS.md).
 
 ## Benchmarks
 

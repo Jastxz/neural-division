@@ -13,7 +13,7 @@ Ejecución:
 include("utils.jl")
 
 function cargar_ecoli()
-    ruta = joinpath(@__DIR__, "ecoli.csv")
+    ruta = joinpath(@__DIR__, "..", "csv", "ecoli.csv")
     lines = filter(!isempty, readlines(ruta))
 
     # Filtrar clases con pocas muestras (imL=2, imS=2, omL=5)
@@ -49,7 +49,7 @@ function cargar_ecoli()
 end
 
 function cargar_balance()
-    ruta = joinpath(@__DIR__, "balance.csv")
+    ruta = joinpath(@__DIR__, "..", "csv", "balance.csv")
     lines = filter(!isempty, readlines(ruta))
     clase_map = Dict("L"=>1, "B"=>2, "R"=>3)
 

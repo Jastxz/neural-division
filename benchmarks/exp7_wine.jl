@@ -12,7 +12,7 @@ Ejecución:
 include("utils.jl")
 
 function cargar_wine()
-    ruta = joinpath(@__DIR__, "wine.csv")
+    ruta = joinpath(@__DIR__, "..", "csv", "wine.csv")
     if !isfile(ruta)
         println("Descargando Wine dataset...")
         run(`curl -sL -o $ruta https://archive.ics.uci.edu/ml/machine-learning-databases/wine/wine.data`)

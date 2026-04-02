@@ -13,7 +13,7 @@ Ejecución:
 include("utils.jl")
 
 function cargar_seeds()
-    ruta = joinpath(@__DIR__, "seeds.csv")
+    ruta = joinpath(@__DIR__, "..", "csv", "seeds.csv")
     lines = filter(!isempty, readlines(ruta))
     n = length(lines)
     entradas = zeros(Float64, n, 7)
@@ -45,7 +45,7 @@ function cargar_seeds()
 end
 
 function cargar_glass()
-    ruta = joinpath(@__DIR__, "glass.csv")
+    ruta = joinpath(@__DIR__, "..", "csv", "glass.csv")
     lines = filter(!isempty, readlines(ruta))
     n = length(lines)
     entradas = zeros(Float64, n, 9)

@@ -13,7 +13,7 @@ include("utils.jl")
 using Base.Threads: Atomic
 
 function cargar_cancer(; solo_mean::Bool=false)
-    ruta = joinpath(@__DIR__, "wdbc.csv")
+    ruta = joinpath(@__DIR__, "..", "csv", "wdbc.csv")
     if !isfile(ruta)
         println("Descargando Breast Cancer dataset...")
         run(`curl -sL -o $ruta https://archive.ics.uci.edu/ml/machine-learning-databases/breast-cancer-wisconsin/wdbc.data`)

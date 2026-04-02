@@ -150,7 +150,7 @@ function exp13()
     seeds = SEEDS_20
 
     # Pima
-    ent_p, sal_p = cargar_csv_simple(joinpath(@__DIR__, "pima.csv"), 8)
+    ent_p, sal_p = cargar_csv_simple(joinpath(@__DIR__, "..", "csv", "pima.csv"), 8)
     nombres_pima = ["Pregnancies", "Glucose", "BloodPres", "SkinThick",
                      "Insulin", "BMI", "DiabPedigree", "Age"]
     ejecutar_dataset("Pima Indians Diabetes", ent_p, sal_p,
@@ -158,7 +158,7 @@ function exp13()
         nombres_feat=nombres_pima)
 
     # Banknote
-    ent_b, sal_b = cargar_csv_simple(joinpath(@__DIR__, "banknote.csv"), 4)
+    ent_b, sal_b = cargar_csv_simple(joinpath(@__DIR__, "..", "csv", "banknote.csv"), 4)
     nombres_bank = ["Variance", "Skewness", "Kurtosis", "Entropy"]
     ejecutar_dataset("Banknote Authentication", ent_b, sal_b,
         [[4, 8, 2], [4, 16, 2]], seeds;

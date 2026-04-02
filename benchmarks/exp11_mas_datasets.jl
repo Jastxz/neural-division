@@ -164,7 +164,7 @@ function exp11()
     println("3 features, 2 clases, 306 muestras")
     println("Subconfiguraciones: $((2^3-1)*(2^2-1))")
 
-    ent_h, sal_h = cargar_csv_generico(joinpath(@__DIR__, "haberman.csv");
+    ent_h, sal_h = cargar_csv_generico(joinpath(@__DIR__, "..", "csv", "haberman.csv");
         n_features=3, clase_col=4, clase_map=Dict("1"=>1, "2"=>2))
 
     ejecutar_con_presupuesto("Haberman 3→8→2", ent_h, sal_h, [3, 8, 2], seeds; umbral=0.5)
@@ -174,7 +174,7 @@ function exp11()
     println("\n═══ Ionosphere ═══")
     println("34 features, 2 clases, 351 muestras")
 
-    ent_i, sal_i = cargar_csv_generico(joinpath(@__DIR__, "ionosphere.csv");
+    ent_i, sal_i = cargar_csv_generico(joinpath(@__DIR__, "..", "csv", "ionosphere.csv");
         n_features=34, clase_col=35, clase_map=Dict("g"=>1, "b"=>2))
 
     ejecutar_con_presupuesto("Ionosphere 34→16→2", ent_i, sal_i, [34, 16, 2], seeds;
@@ -186,7 +186,7 @@ function exp11()
     println("\n═══ Sonar ═══")
     println("60 features, 2 clases, 208 muestras")
 
-    ent_s, sal_s = cargar_csv_generico(joinpath(@__DIR__, "sonar.csv");
+    ent_s, sal_s = cargar_csv_generico(joinpath(@__DIR__, "..", "csv", "sonar.csv");
         n_features=60, clase_col=61, clase_map=Dict("R"=>1, "M"=>2))
 
     ejecutar_con_presupuesto("Sonar 60→32→2", ent_s, sal_s, [60, 32, 2], seeds;
