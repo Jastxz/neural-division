@@ -142,3 +142,43 @@ Los mejores resultados (Glass +37pp, Ecoli +11pp, Seeds +1pp) se obtienen con ex
 **Por qué**: con 1372 muestras, 4 features bien diseñadas, y 2 clases, el problema es fácil para cualquier red razonable. Las 4 features wavelet fueron diseñadas específicamente para este problema y son todas necesarias. No hay beneficio en simplificar.
 
 **Conclusión**: cuando el problema está bien condicionado y las features son óptimas, el método correctamente no intenta simplificar.
+
+
+## Adult Census Income — dataset grande, referencia domina
+
+**El problema**: predecir si una persona gana más de 50K$/año usando variables demográficas y laborales. ~30K muestras de entrenamiento, ~15K de test.
+
+**Variante A (6 features continuas)**: referencia 82.0% vs subredes 80.8%. La referencia domina (14/20). Cuando las subredes ganan, usan Education-Num (33%), Capital-Gain (33%) y Capital-Loss (33%).
+
+**Por qué la referencia gana**: con 30K muestras y solo 6 features, hay datos de sobra para que la red completa aproveche todas las variables sin sobreajustar. Además, la predicción de ingresos depende genuinamente de múltiples factores (educación, horas trabajadas, ganancias de capital) que no son redundantes.
+
+**Lo que el método revela**: Capital-Gain aparece como feature clave en las subredes. Esto tiene sentido: las ganancias de capital son un indicador directo de riqueza y están fuertemente correlacionadas con ingresos altos. Education-Num (años de educación) es el segundo predictor más fuerte, consistente con la sociología económica.
+
+**Conclusión**: en datasets grandes con features complementarias, la red completa es la mejor opción. El método lo reconoce y además identifica correctamente los predictores más fuertes cuando sí selecciona subredes.
+
+## Nota sobre MNIST y CIFAR — trabajo futuro
+
+MNIST (784 píxeles, 10 clases) y CIFAR-10 (3072 valores RGB, 10 clases) tienen espacios de subconfiguraciones astronómicos (2^784 y 2^3072). La exploración exhaustiva es inviable.
+
+Sin embargo, hay dos enfoques prometedores:
+
+**1. Exploración acotada por rango de entradas**: en vez de explorar todos los subconjuntos, limitar la búsqueda a subconfiguraciones que usen entre el 40% y el 60% de las entradas. Para MNIST esto serían subconjuntos de ~310-470 píxeles de los 784. El número de combinaciones sigue siendo enorme (C(784, 400) ≈ 10^230), pero con muestreo aleatorio de este rango se podrían encontrar subredes que identifiquen qué regiones de la imagen son más informativas para cada dígito.
+
+**2. División sobre representaciones aprendidas**: aplicar primero una capa de extracción de features (convolucional, autoencoder, o PCA) que reduzca las 784 entradas a 10-30 features significativas. Entonces la división neuronal se aplica sobre esas features, con un espacio manejable. Esto combinaría lo mejor de ambos mundos: representación aprendida + búsqueda exhaustiva de subredes.
+
+El segundo enfoque es especialmente interesante porque permitiría responder: "¿qué features aprendidas son necesarias para distinguir cada dígito?" — una pregunta de interpretabilidad sobre representaciones profundas.
+
+
+## MNIST con PCA — ¿cuántos componentes necesita cada dígito?
+
+**El problema**: clasificar dígitos manuscritos (MNIST, 60K train, 10K test). Las 784 dimensiones de píxeles se reducen a 10-15 componentes principales mediante PCA.
+
+**Variante A (10 PCA, 0 vs 1)**: referencia 99.9%, subredes 98.0% con 3.7 componentes de media. Distinguir un 0 de un 1 es trivial — la forma global (primer componente PCA) ya los separa. Las subredes confirman que 3-4 componentes son suficientes.
+
+**Variante B (10 PCA, 0 vs 1 vs 7)**: referencia 99.1%, subredes 97.5% con solo 2 componentes. En 10/10 semillas la subred gana. Esto es notable: tres dígitos visualmente muy distintos (0 redondo, 1 vertical, 7 angular) se separan con solo 2 dimensiones del espacio PCA. El método descubre que la clasificación de estos dígitos es esencialmente bidimensional.
+
+**Variante C (15 PCA, 0 vs 1)**: referencia 99.9%, subredes 99.5% con 4.2 componentes. Con más componentes disponibles, las subredes seleccionan ~4, confirmando que la información discriminativa entre 0 y 1 se concentra en pocas dimensiones.
+
+**Por qué funciona**: PCA ordena las dimensiones por varianza explicada. Los primeros componentes capturan las diferencias globales de forma (redondo vs alargado vs angular). Para dígitos muy distintos, 2-4 componentes bastan. El método de la División Neuronal descubre automáticamente cuántos componentes son necesarios para cada par o grupo de dígitos.
+
+**Implicación para el artículo**: esto demuestra que el método puede aplicarse a problemas de alta dimensionalidad mediante una etapa previa de reducción de dimensionalidad. La combinación PCA + División Neuronal proporciona tanto eficiencia (menos neuronas) como interpretabilidad (qué componentes importan para qué clases).

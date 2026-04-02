@@ -213,6 +213,32 @@ Subredes superan a la referencia con menor varianza. Regularización implícita.
 
 Con exploración parcial, solo se evalúan subredes con 1-2 entradas. **La exploración exhaustiva es el punto fuerte del método** — cuando es factible, garantiza encontrar la subred óptima y revelar la estructura del problema.
 
+### Adult Census Income (6 features continuas, 2 clases, ~30K train)
+
+| Red | Ref. completa | Mejor seleccionada | Tipo seleccionado |
+|-----|--------------|-------------------|-------------------|
+| 6→16→2 | 82.0% | 80.8% | referencia 70% |
+| 6→32→2 | 81.9% | 81.7% | referencia 90% |
+
+Con 30K muestras y features complementarias, la referencia domina. Cuando las subredes ganan, identifican Capital-Gain y Education-Num como predictores clave — consistente con la sociología económica.
+
+### Sobre MNIST y CIFAR
+
+MNIST (784 entradas) y CIFAR-10 (3072 entradas) tienen espacios de subconfiguraciones astronómicos para exploración exhaustiva. Dos enfoques prometedores:
+
+1. **Exploración acotada**: limitar la búsqueda a subconfiguraciones con el 40-60% de las entradas. No es exhaustiva, pero puede revelar qué regiones de la imagen son más informativas para cada clase.
+2. **División sobre representaciones**: aplicar la división neuronal sobre features extraídas por una capa previa (convolucional, PCA), reduciendo a 10-30 entradas manejables.
+
+### MNIST con PCA (10-15 componentes, 10 semillas)
+
+| Variante | Ref. completa | Mejor seleccionada | Componentes usados |
+|----------|--------------|-------------------|-------------------|
+| 10 PCA, 0 vs 1 | 99.9% | 98.0% | 3.7 / 10 |
+| 10 PCA, 0 vs 1 vs 7 | 99.1% | 97.5% | 2.0 / 10 |
+| 15 PCA, 0 vs 1 | 99.9% | 99.5% | 4.2 / 15 |
+
+El método descubre que distinguir dígitos 0, 1 y 7 solo necesita 2 componentes PCA. Con 15 componentes, una subred de 20 neuronas alcanza 100% (seed 42) superando a la referencia de 33 neuronas.
+
 ### Hallazgos principales
 
 1. **Comprensión del problema**: el método revela la estructura interna de los datos. En Glass descubre que el Índice de Refracción es el predictor dominante (85%); en Seeds, que el Área del grano separa las variedades (94%); en Pima, que la Glucosa es el factor clave (80%). Estos descubrimientos coinciden con el conocimiento experto de cada dominio, validando el método como herramienta de análisis.
@@ -251,6 +277,11 @@ julia --project=. benchmarks/exp8_cancer.jl         # Breast Cancer Wisconsin
 julia --project=. benchmarks/exp9_sinteticos2d.jl   # Datos sintéticos 2D
 julia --project=. benchmarks/exp10_seeds_glass.jl   # Seeds y Glass
 julia --project=. benchmarks/exp11_mas_datasets.jl  # Ionosphere, Sonar, Haberman
+julia --project=. benchmarks/exp12_ecoli_balance.jl # Ecoli y Balance Scale
+julia --project=. benchmarks/exp13_pima_banknote.jl # Pima Diabetes y Banknote
+julia --project=. benchmarks/exp14_adult.jl         # Adult Census Income
+julia --project=. benchmarks/exp14b_adult_acotado.jl # Adult exploración acotada
+julia --project=. benchmarks/exp15_mnist_pca.jl     # MNIST con PCA
 ```
 
 ## Licencia

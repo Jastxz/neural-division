@@ -4,11 +4,13 @@ version = "0.1.0"
 authors = ["Jastxz <javicraft14@gmail.com>"]
 
 [deps]
+CodecZlib = "944b1d66-785c-5afd-91f1-9de20f533193"
 JLD2 = "033835bb-8acc-5ee8-8aae-3f567f8a3819"
 Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
 Statistics = "10745b16-79ce-11e8-11f9-7d13ad32a3b2"
 
 [compat]
+CodecZlib = "0.7.8"
 JLD2 = "0.6.4"
 PropCheck = "0.10.1"
 Random = "1.11.0"
