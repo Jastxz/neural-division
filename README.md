@@ -239,6 +239,16 @@ MNIST (784 entradas) y CIFAR-10 (3072 entradas) tienen espacios de subconfigurac
 
 El método descubre que distinguir dígitos 0, 1 y 7 solo necesita 2 componentes PCA. Con 15 componentes, una subred de 20 neuronas alcanza 100% (seed 42) superando a la referencia de 33 neuronas.
 
+### MONKS Problems (6 atributos, 2 clases — problemas históricamente difíciles)
+
+| Problema | Regla | Red 6→32→2 | Observación |
+|----------|-------|-----------|-------------|
+| Monks-1 | (a1==a2) OR (a5==1) | 99.5% | Resuelto, referencia 20/20 |
+| Monks-2 | exactamente 2 de 6 con primer valor | 83.1% | No resuelto, irreducible |
+| Monks-3 | regla sobre a2,a4,a5 + 5% ruido | 90.3% | Parcial, identifica a2 y a5 |
+
+Monks-2 es especialmente revelador: la regla "exactamente 2 de 6" es una función de conteo que requiere todas las entradas simultáneamente. El método confirma que el problema es irreducible (referencia 20/20) y que no se puede descomponer en subproblemas. Saber que un problema no se puede simplificar es tan valioso como encontrar una simplificación.
+
 ### Hallazgos principales
 
 1. **Comprensión del problema**: el método revela la estructura interna de los datos. En Glass descubre que el Índice de Refracción es el predictor dominante (85%); en Seeds, que el Área del grano separa las variedades (94%); en Pima, que la Glucosa es el factor clave (80%). Estos descubrimientos coinciden con el conocimiento experto de cada dominio, validando el método como herramienta de análisis.
@@ -249,7 +259,7 @@ El método descubre que distinguir dígitos 0, 1 y 7 solo necesita 2 componentes
 
 4. **Descomposición de problemas**: el mapa de soluciones parciales muestra cómo se descompone el problema. En el multi-salida AND+OR+XOR, identifica que XOR necesita ambas entradas mientras AND/OR se resuelven con una. Cada subconjunto de salidas tiene su subred óptima.
 
-5. **Saber cuándo no simplificar**: en Pima Diabetes y Banknote, el método selecciona correctamente la red completa, reconociendo que todas las features aportan información complementaria. Esto es tan informativo como encontrar subredes — confirma que el problema requiere todas las variables.
+5. **Saber cuándo no simplificar**: en Pima Diabetes, Banknote y Monks-2, el método selecciona correctamente la red completa. En Monks-2, confirma que la regla combinatoria "exactamente 2 de 6" es irreducible. Esto es tan informativo como encontrar subredes — confirma que el problema requiere todas las variables.
 
 6. **Exploración exhaustiva como garantía**: con espacios manejables (hasta ~10⁵ subconfiguraciones), el método garantiza la subred óptima y proporciona un mapa completo de la relación entradas-salidas. El valor real está en la búsqueda completa.
 
@@ -282,6 +292,7 @@ julia --project=. benchmarks/exp13_pima_banknote.jl # Pima Diabetes y Banknote
 julia --project=. benchmarks/exp14_adult.jl         # Adult Census Income
 julia --project=. benchmarks/exp14b_adult_acotado.jl # Adult exploración acotada
 julia --project=. benchmarks/exp15_mnist_pca.jl     # MNIST con PCA
+julia --project=. benchmarks/exp16_monks.jl         # MONKS Problems
 ```
 
 ## Licencia
