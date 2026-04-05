@@ -28,4 +28,5 @@ LocalPreferences.toml
 JuliaLocalPreferences.toml
 
 .kiro
-/csv/
+csv/
+articulo/
