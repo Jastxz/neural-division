@@ -36,6 +36,9 @@ include("motor.jl")
 # Selección de mejor solución
 include("seleccion.jl")
 
+# Embeddings y representaciones modernas
+include("embeddings.jl")
+
 # Exportar tipos
 export RedBase, Subconfiguracion, ResultadoEvaluacion
 export EntradaMapaSoluciones, MapaDeSoluciones
@@ -70,5 +73,10 @@ export ejecutar_division
 
 # Exportar selección
 export ResultadoSeleccion, calcular_score, seleccionar_mejor
+
+# Exportar embeddings
+export TablaEmbedding, EsquemaEmbedding, RedBaseConEmbedding
+export crear_esquema, transformar, crear_red_con_embedding
+export evaluar_batch_subconfiguraciones
 
 end # module DivisionNeuronal

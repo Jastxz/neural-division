@@ -222,3 +222,16 @@ Los MONKS demuestran tres escenarios:
 - **Monks-3**: problema parcialmente resuelto, el método identifica los atributos clave cuando simplifica.
 
 En los tres casos, la información que proporciona el método (qué atributos usa, si simplifica o no) es coherente con la regla real conocida. Esto valida el método como herramienta de análisis incluso cuando no mejora la precisión.
+
+
+## Embeddings para features categóricas — representaciones modernas
+
+**El experimento**: aplicar la División Neuronal sobre representaciones con embeddings aprendibles para features categóricas, usando Adult Census Income (6 continuas + 5 categóricas → 26 dimensiones tras embedding dim=4).
+
+**Resultados**:
+- Ordinal (11 entradas): referencia 84.5%, división 84.1%
+- Embeddings (26 entradas): referencia 84.6%, división 81.1%
+
+**Análisis**: los embeddings mejoran ligeramente la referencia completa (84.6% vs 84.5%), confirmando que capturan mejor las relaciones entre categorías que la codificación ordinal. Sin embargo, las subredes con embeddings son peores (81.1% vs 84.1%) porque la dimensionalidad aumenta de 11 a 26, haciendo la exploración parcial menos efectiva.
+
+**Conclusión**: el método es compatible con representaciones modernas (embeddings, tensores), pero la mayor dimensionalidad requiere exploración más amplia o estrategias de búsqueda más inteligentes. La combinación de embeddings con exploración exhaustiva (cuando sea factible) o con reducción de dimensionalidad previa (como PCA) es la dirección más prometedora.
