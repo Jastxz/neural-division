@@ -1,0 +1,4753 @@
+{
+  "directed": false,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "exp10_seeds_glass.jl",
+      "file_type": "code",
+      "source_file": "benchmarks/exp10_seeds_glass.jl",
+      "source_location": "L1",
+      "id": "benchmarks_exp10_seeds_glass",
+      "community": 7,
+      "norm_label": "exp10_seeds_glass.jl"
+    },
+    {
+      "label": "cargar_seeds()",
+      "file_type": "code",
+      "source_file": "benchmarks/exp10_seeds_glass.jl",
+      "source_location": "L15",
+      "id": "benchmarks_exp10_seeds_glass_cargar_seeds",
+      "community": 7,
+      "norm_label": "cargar_seeds()"
+    },
+    {
+      "label": "cargar_glass()",
+      "file_type": "code",
+      "source_file": "benchmarks/exp10_seeds_glass.jl",
+      "source_location": "L47",
+      "id": "benchmarks_exp10_seeds_glass_cargar_glass",
+      "community": 7,
+      "norm_label": "cargar_glass()"
+    },
+    {
+      "label": "split_estratificado()",
+      "file_type": "code",
+      "source_file": "benchmarks/exp10_seeds_glass.jl",
+      "source_location": "L82",
+      "id": "benchmarks_exp10_seeds_glass_split_estratificado",
+      "community": 7,
+      "norm_label": "split_estratificado()"
+    },
+    {
+      "label": "ejecutar_dataset()",
+      "file_type": "code",
+      "source_file": "benchmarks/exp10_seeds_glass.jl",
+      "source_location": "L104",
+      "id": "benchmarks_exp10_seeds_glass_ejecutar_dataset",
+      "community": 7,
+      "norm_label": "ejecutar_dataset()"
+    },
+    {
+      "label": "exp10()",
+      "file_type": "code",
+      "source_file": "benchmarks/exp10_seeds_glass.jl",
+      "source_location": "L195",
+      "id": "benchmarks_exp10_seeds_glass_exp10",
+      "community": 7,
+      "norm_label": "exp10()"
+    },
+    {
+      "label": "exp11_mas_datasets.jl",
+      "file_type": "code",
+      "source_file": "benchmarks/exp11_mas_datasets.jl",
+      "source_location": "L1",
+      "id": "benchmarks_exp11_mas_datasets",
+      "community": 8,
+      "norm_label": "exp11_mas_datasets.jl"
+    },
+    {
+      "label": "Atomic",
+      "file_type": "code",
+      "source_file": "benchmarks/exp11_mas_datasets.jl",
+      "source_location": "L13",
+      "id": "benchmarks_exp11_mas_datasets_jl_atomic",
+      "community": 8,
+      "norm_label": "atomic"
+    },
+    {
+      "label": "cargar_csv_generico()",
+      "file_type": "code",
+      "source_file": "benchmarks/exp11_mas_datasets.jl",
+      "source_location": "L15",
+      "id": "benchmarks_exp11_mas_datasets_cargar_csv_generico",
+      "community": 8,
+      "norm_label": "cargar_csv_generico()"
+    },
+    {
+      "label": "split_strat()",
+      "file_type": "code",
+      "source_file": "benchmarks/exp11_mas_datasets.jl",
+      "source_location": "L47",
+      "id": "benchmarks_exp11_mas_datasets_split_strat",
+      "community": 8,
+      "norm_label": "split_strat()"
+    },
+    {
+      "label": "ejecutar_con_presupuesto()",
+      "file_type": "code",
+      "source_file": "benchmarks/exp11_mas_datasets.jl",
+      "source_location": "L67",
+      "id": "benchmarks_exp11_mas_datasets_ejecutar_con_presupuesto",
+      "community": 8,
+      "norm_label": "ejecutar_con_presupuesto()"
+    },
+    {
+      "label": "exp11()",
+      "file_type": "code",
+      "source_file": "benchmarks/exp11_mas_datasets.jl",
+      "source_location": "L155",
+      "id": "benchmarks_exp11_mas_datasets_exp11",
+      "community": 8,
+      "norm_label": "exp11()"
+    },
+    {
+      "label": "exp12_ecoli_balance.jl",
+      "file_type": "code",
+      "source_file": "benchmarks/exp12_ecoli_balance.jl",
+      "source_location": "L1",
+      "id": "benchmarks_exp12_ecoli_balance",
+      "community": 9,
+      "norm_label": "exp12_ecoli_balance.jl"
+    },
+    {
+      "label": "cargar_ecoli()",
+      "file_type": "code",
+      "source_file": "benchmarks/exp12_ecoli_balance.jl",
+      "source_location": "L15",
+      "id": "benchmarks_exp12_ecoli_balance_cargar_ecoli",
+      "community": 9,
+      "norm_label": "cargar_ecoli()"
+    },
+    {
+      "label": "cargar_balance()",
+      "file_type": "code",
+      "source_file": "benchmarks/exp12_ecoli_balance.jl",
+      "source_location": "L51",
+      "id": "benchmarks_exp12_ecoli_balance_cargar_balance",
+      "community": 9,
+      "norm_label": "cargar_balance()"
+    },
+    {
+      "label": "split_strat()",
+      "file_type": "code",
+      "source_file": "benchmarks/exp12_ecoli_balance.jl",
+      "source_location": "L79",
+      "id": "benchmarks_exp12_ecoli_balance_split_strat",
+      "community": 9,
+      "norm_label": "split_strat()"
+    },
+    {
+      "label": "ejecutar_dataset()",
+      "file_type": "code",
+      "source_file": "benchmarks/exp12_ecoli_balance.jl",
+      "source_location": "L99",
+      "id": "benchmarks_exp12_ecoli_balance_ejecutar_dataset",
+      "community": 9,
+      "norm_label": "ejecutar_dataset()"
+    },
+    {
+      "label": "exp12()",
+      "file_type": "code",
+      "source_file": "benchmarks/exp12_ecoli_balance.jl",
+      "source_location": "L186",
+      "id": "benchmarks_exp12_ecoli_balance_exp12",
+      "community": 9,
+      "norm_label": "exp12()"
+    },
+    {
+      "label": "exp13_pima_banknote.jl",
+      "file_type": "code",
+      "source_file": "benchmarks/exp13_pima_banknote.jl",
+      "source_location": "L1",
+      "id": "benchmarks_exp13_pima_banknote",
+      "community": 12,
+      "norm_label": "exp13_pima_banknote.jl"
+    },
+    {
+      "label": "cargar_csv_simple()",
+      "file_type": "code",
+      "source_file": "benchmarks/exp13_pima_banknote.jl",
+      "source_location": "L15",
+      "id": "benchmarks_exp13_pima_banknote_cargar_csv_simple",
+      "community": 12,
+      "norm_label": "cargar_csv_simple()"
+    },
+    {
+      "label": "split_strat()",
+      "file_type": "code",
+      "source_file": "benchmarks/exp13_pima_banknote.jl",
+      "source_location": "L40",
+      "id": "benchmarks_exp13_pima_banknote_split_strat",
+      "community": 12,
+      "norm_label": "split_strat()"
+    },
+    {
+      "label": "ejecutar_dataset()",
+      "file_type": "code",
+      "source_file": "benchmarks/exp13_pima_banknote.jl",
+      "source_location": "L59",
+      "id": "benchmarks_exp13_pima_banknote_ejecutar_dataset",
+      "community": 12,
+      "norm_label": "ejecutar_dataset()"
+    },
+    {
+      "label": "exp13()",
+      "file_type": "code",
+      "source_file": "benchmarks/exp13_pima_banknote.jl",
+      "source_location": "L145",
+      "id": "benchmarks_exp13_pima_banknote_exp13",
+      "community": 12,
+      "norm_label": "exp13()"
+    },
+    {
+      "label": "exp14_adult.jl",
+      "file_type": "code",
+      "source_file": "benchmarks/exp14_adult.jl",
+      "source_location": "L1",
+      "id": "benchmarks_exp14_adult",
+      "community": 24,
+      "norm_label": "exp14_adult.jl"
+    },
+    {
+      "label": "cargar_adult()",
+      "file_type": "code",
+      "source_file": "benchmarks/exp14_adult.jl",
+      "source_location": "L17",
+      "id": "benchmarks_exp14_adult_cargar_adult",
+      "community": 24,
+      "norm_label": "cargar_adult()"
+    },
+    {
+      "label": "exp14_adult()",
+      "file_type": "code",
+      "source_file": "benchmarks/exp14_adult.jl",
+      "source_location": "L115",
+      "id": "benchmarks_exp14_adult_exp14_adult",
+      "community": 24,
+      "norm_label": "exp14_adult()"
+    },
+    {
+      "label": "exp14b_adult_acotado.jl",
+      "file_type": "code",
+      "source_file": "benchmarks/exp14b_adult_acotado.jl",
+      "source_location": "L1",
+      "id": "benchmarks_exp14b_adult_acotado",
+      "community": 6,
+      "norm_label": "exp14b_adult_acotado.jl"
+    },
+    {
+      "label": "Atomic",
+      "file_type": "code",
+      "source_file": "benchmarks/exp14b_adult_acotado.jl",
+      "source_location": "L13",
+      "id": "benchmarks_exp14b_adult_acotado_jl_atomic",
+      "community": 6,
+      "norm_label": "atomic"
+    },
+    {
+      "label": "cargar_adult_11()",
+      "file_type": "code",
+      "source_file": "benchmarks/exp14b_adult_acotado.jl",
+      "source_location": "L15",
+      "id": "benchmarks_exp14b_adult_acotado_cargar_adult_11",
+      "community": 6,
+      "norm_label": "cargar_adult_11()"
+    },
+    {
+      "label": "exp14b()",
+      "file_type": "code",
+      "source_file": "benchmarks/exp14b_adult_acotado.jl",
+      "source_location": "L90",
+      "id": "benchmarks_exp14b_adult_acotado_exp14b",
+      "community": 6,
+      "norm_label": "exp14b()"
+    },
+    {
+      "label": "CombIter",
+      "file_type": "code",
+      "source_file": "benchmarks/exp14b_adult_acotado.jl",
+      "source_location": "L208",
+      "id": "benchmarks_exp14b_adult_acotado_combiter",
+      "community": 6,
+      "norm_label": "combiter"
+    },
+    {
+      "label": "Int",
+      "file_type": "code",
+      "source_file": "benchmarks/exp14b_adult_acotado.jl",
+      "source_location": "L209",
+      "id": "benchmarks_exp14b_adult_acotado_jl_int",
+      "community": 6,
+      "norm_label": "int"
+    },
+    {
+      "label": "combinations_iter()",
+      "file_type": "code",
+      "source_file": "benchmarks/exp14b_adult_acotado.jl",
+      "source_location": "L212",
+      "id": "benchmarks_exp14b_adult_acotado_combinations_iter",
+      "community": 6,
+      "norm_label": "combinations_iter()"
+    },
+    {
+      "label": "exp15_mnist_pca.jl",
+      "file_type": "code",
+      "source_file": "benchmarks/exp15_mnist_pca.jl",
+      "source_location": "L1",
+      "id": "benchmarks_exp15_mnist_pca",
+      "community": 2,
+      "norm_label": "exp15_mnist_pca.jl"
+    },
+    {
+      "label": "CodecZlib",
+      "file_type": "code",
+      "source_file": "benchmarks/exp15_mnist_pca.jl",
+      "source_location": "L16",
+      "id": "codeczlib",
+      "community": 2,
+      "norm_label": "codeczlib"
+    },
+    {
+      "label": "LinearAlgebra",
+      "file_type": "code",
+      "source_file": "benchmarks/exp15_mnist_pca.jl",
+      "source_location": "L16",
+      "id": "benchmarks_exp15_mnist_pca_jl_linearalgebra",
+      "community": 2,
+      "norm_label": "linearalgebra"
+    },
+    {
+      "label": "leer_imagenes()",
+      "file_type": "code",
+      "source_file": "benchmarks/exp15_mnist_pca.jl",
+      "source_location": "L18",
+      "id": "benchmarks_exp15_mnist_pca_leer_imagenes",
+      "community": 2,
+      "norm_label": "leer_imagenes()"
+    },
+    {
+      "label": "leer_labels()",
+      "file_type": "code",
+      "source_file": "benchmarks/exp15_mnist_pca.jl",
+      "source_location": "L27",
+      "id": "benchmarks_exp15_mnist_pca_leer_labels",
+      "community": 2,
+      "norm_label": "leer_labels()"
+    },
+    {
+      "label": "aplicar_pca()",
+      "file_type": "code",
+      "source_file": "benchmarks/exp15_mnist_pca.jl",
+      "source_location": "L32",
+      "id": "benchmarks_exp15_mnist_pca_aplicar_pca",
+      "community": 2,
+      "norm_label": "aplicar_pca()"
+    },
+    {
+      "label": "filtrar_clases()",
+      "file_type": "code",
+      "source_file": "benchmarks/exp15_mnist_pca.jl",
+      "source_location": "L63",
+      "id": "benchmarks_exp15_mnist_pca_filtrar_clases",
+      "community": 2,
+      "norm_label": "filtrar_clases()"
+    },
+    {
+      "label": "CombIter",
+      "file_type": "code",
+      "source_file": "benchmarks/exp15_mnist_pca.jl",
+      "source_location": "L79",
+      "id": "benchmarks_exp15_mnist_pca_combiter",
+      "community": 2,
+      "norm_label": "combiter"
+    },
+    {
+      "label": "Int",
+      "file_type": "code",
+      "source_file": "benchmarks/exp15_mnist_pca.jl",
+      "source_location": "L79",
+      "id": "benchmarks_exp15_mnist_pca_jl_int",
+      "community": 2,
+      "norm_label": "int"
+    },
+    {
+      "label": "combinations_iter()",
+      "file_type": "code",
+      "source_file": "benchmarks/exp15_mnist_pca.jl",
+      "source_location": "L80",
+      "id": "benchmarks_exp15_mnist_pca_combinations_iter",
+      "community": 2,
+      "norm_label": "combinations_iter()"
+    },
+    {
+      "label": "ejecutar_mnist_pca()",
+      "file_type": "code",
+      "source_file": "benchmarks/exp15_mnist_pca.jl",
+      "source_location": "L97",
+      "id": "benchmarks_exp15_mnist_pca_ejecutar_mnist_pca",
+      "community": 2,
+      "norm_label": "ejecutar_mnist_pca()"
+    },
+    {
+      "label": "exp15()",
+      "file_type": "code",
+      "source_file": "benchmarks/exp15_mnist_pca.jl",
+      "source_location": "L188",
+      "id": "benchmarks_exp15_mnist_pca_exp15",
+      "community": 2,
+      "norm_label": "exp15()"
+    },
+    {
+      "label": "exp16_monks.jl",
+      "file_type": "code",
+      "source_file": "benchmarks/exp16_monks.jl",
+      "source_location": "L1",
+      "id": "benchmarks_exp16_monks",
+      "community": 15,
+      "norm_label": "exp16_monks.jl"
+    },
+    {
+      "label": "cargar_monks()",
+      "file_type": "code",
+      "source_file": "benchmarks/exp16_monks.jl",
+      "source_location": "L18",
+      "id": "benchmarks_exp16_monks_cargar_monks",
+      "community": 15,
+      "norm_label": "cargar_monks()"
+    },
+    {
+      "label": "ejecutar_monks()",
+      "file_type": "code",
+      "source_file": "benchmarks/exp16_monks.jl",
+      "source_location": "L48",
+      "id": "benchmarks_exp16_monks_ejecutar_monks",
+      "community": 15,
+      "norm_label": "ejecutar_monks()"
+    },
+    {
+      "label": "exp16()",
+      "file_type": "code",
+      "source_file": "benchmarks/exp16_monks.jl",
+      "source_location": "L124",
+      "id": "benchmarks_exp16_monks_exp16",
+      "community": 15,
+      "norm_label": "exp16()"
+    },
+    {
+      "label": "exp17_comparacion_formal.jl",
+      "file_type": "code",
+      "source_file": "benchmarks/exp17_comparacion_formal.jl",
+      "source_location": "L1",
+      "id": "benchmarks_exp17_comparacion_formal",
+      "community": 3,
+      "norm_label": "exp17_comparacion_formal.jl"
+    },
+    {
+      "label": "cargar_wine_datos()",
+      "file_type": "code",
+      "source_file": "benchmarks/exp17_comparacion_formal.jl",
+      "source_location": "L21",
+      "id": "benchmarks_exp17_comparacion_formal_cargar_wine_datos",
+      "community": 3,
+      "norm_label": "cargar_wine_datos()"
+    },
+    {
+      "label": "cargar_glass_datos()",
+      "file_type": "code",
+      "source_file": "benchmarks/exp17_comparacion_formal.jl",
+      "source_location": "L37",
+      "id": "benchmarks_exp17_comparacion_formal_cargar_glass_datos",
+      "community": 3,
+      "norm_label": "cargar_glass_datos()"
+    },
+    {
+      "label": "cargar_seeds_datos()",
+      "file_type": "code",
+      "source_file": "benchmarks/exp17_comparacion_formal.jl",
+      "source_location": "L55",
+      "id": "benchmarks_exp17_comparacion_formal_cargar_seeds_datos",
+      "community": 3,
+      "norm_label": "cargar_seeds_datos()"
+    },
+    {
+      "label": "cargar_ecoli_datos()",
+      "file_type": "code",
+      "source_file": "benchmarks/exp17_comparacion_formal.jl",
+      "source_location": "L70",
+      "id": "benchmarks_exp17_comparacion_formal_cargar_ecoli_datos",
+      "community": 3,
+      "norm_label": "cargar_ecoli_datos()"
+    },
+    {
+      "label": "normalizar!()",
+      "file_type": "code",
+      "source_file": "benchmarks/exp17_comparacion_formal.jl",
+      "source_location": "L90",
+      "id": "benchmarks_exp17_comparacion_formal_normalizar",
+      "community": 3,
+      "norm_label": "normalizar!()"
+    },
+    {
+      "label": "split_strat()",
+      "file_type": "code",
+      "source_file": "benchmarks/exp17_comparacion_formal.jl",
+      "source_location": "L98",
+      "id": "benchmarks_exp17_comparacion_formal_split_strat",
+      "community": 3,
+      "norm_label": "split_strat()"
+    },
+    {
+      "label": "top_k_features_correlacion()",
+      "file_type": "code",
+      "source_file": "benchmarks/exp17_comparacion_formal.jl",
+      "source_location": "L119",
+      "id": "benchmarks_exp17_comparacion_formal_top_k_features_correlacion",
+      "community": 3,
+      "norm_label": "top_k_features_correlacion()"
+    },
+    {
+      "label": "entrenar_con_features()",
+      "file_type": "code",
+      "source_file": "benchmarks/exp17_comparacion_formal.jl",
+      "source_location": "L142",
+      "id": "benchmarks_exp17_comparacion_formal_entrenar_con_features",
+      "community": 3,
+      "norm_label": "entrenar_con_features()"
+    },
+    {
+      "label": "wilcoxon_signed_rank()",
+      "file_type": "code",
+      "source_file": "benchmarks/exp17_comparacion_formal.jl",
+      "source_location": "L162",
+      "id": "benchmarks_exp17_comparacion_formal_wilcoxon_signed_rank",
+      "community": 3,
+      "norm_label": "wilcoxon_signed_rank()"
+    },
+    {
+      "label": "erfc()",
+      "file_type": "code",
+      "source_file": "benchmarks/exp17_comparacion_formal.jl",
+      "source_location": "L193",
+      "id": "benchmarks_exp17_comparacion_formal_erfc",
+      "community": 3,
+      "norm_label": "erfc()"
+    },
+    {
+      "label": "exp17()",
+      "file_type": "code",
+      "source_file": "benchmarks/exp17_comparacion_formal.jl",
+      "source_location": "L205",
+      "id": "benchmarks_exp17_comparacion_formal_exp17",
+      "community": 3,
+      "norm_label": "exp17()"
+    },
+    {
+      "label": "exp18_embeddings.jl",
+      "file_type": "code",
+      "source_file": "benchmarks/exp18_embeddings.jl",
+      "source_location": "L1",
+      "id": "benchmarks_exp18_embeddings",
+      "community": 10,
+      "norm_label": "exp18_embeddings.jl"
+    },
+    {
+      "label": "CombIter",
+      "file_type": "code",
+      "source_file": "benchmarks/exp18_embeddings.jl",
+      "source_location": "L19",
+      "id": "benchmarks_exp18_embeddings_combiter",
+      "community": 10,
+      "norm_label": "combiter"
+    },
+    {
+      "label": "Int",
+      "file_type": "code",
+      "source_file": "benchmarks/exp18_embeddings.jl",
+      "source_location": "L19",
+      "id": "benchmarks_exp18_embeddings_jl_int",
+      "community": 10,
+      "norm_label": "int"
+    },
+    {
+      "label": "combinations_iter()",
+      "file_type": "code",
+      "source_file": "benchmarks/exp18_embeddings.jl",
+      "source_location": "L20",
+      "id": "benchmarks_exp18_embeddings_combinations_iter",
+      "community": 10,
+      "norm_label": "combinations_iter()"
+    },
+    {
+      "label": "cargar_adult_para_embeddings()",
+      "file_type": "code",
+      "source_file": "benchmarks/exp18_embeddings.jl",
+      "source_location": "L31",
+      "id": "benchmarks_exp18_embeddings_cargar_adult_para_embeddings",
+      "community": 10,
+      "norm_label": "cargar_adult_para_embeddings()"
+    },
+    {
+      "label": "exp18()",
+      "file_type": "code",
+      "source_file": "benchmarks/exp18_embeddings.jl",
+      "source_location": "L109",
+      "id": "benchmarks_exp18_embeddings_exp18",
+      "community": 10,
+      "norm_label": "exp18()"
+    },
+    {
+      "label": "exp1_umbral.jl",
+      "file_type": "code",
+      "source_file": "benchmarks/exp1_umbral.jl",
+      "source_location": "L1",
+      "id": "benchmarks_exp1_umbral",
+      "community": 35,
+      "norm_label": "exp1_umbral.jl"
+    },
+    {
+      "label": "exp1_umbral()",
+      "file_type": "code",
+      "source_file": "benchmarks/exp1_umbral.jl",
+      "source_location": "L13",
+      "id": "benchmarks_exp1_umbral_exp1_umbral",
+      "community": 35,
+      "norm_label": "exp1_umbral()"
+    },
+    {
+      "label": "exp2_escalado.jl",
+      "file_type": "code",
+      "source_file": "benchmarks/exp2_escalado.jl",
+      "source_location": "L1",
+      "id": "benchmarks_exp2_escalado",
+      "community": 36,
+      "norm_label": "exp2_escalado.jl"
+    },
+    {
+      "label": "exp2_escalado()",
+      "file_type": "code",
+      "source_file": "benchmarks/exp2_escalado.jl",
+      "source_location": "L13",
+      "id": "benchmarks_exp2_escalado_exp2_escalado",
+      "community": 36,
+      "norm_label": "exp2_escalado()"
+    },
+    {
+      "label": "exp3_multisalida.jl",
+      "file_type": "code",
+      "source_file": "benchmarks/exp3_multisalida.jl",
+      "source_location": "L1",
+      "id": "benchmarks_exp3_multisalida",
+      "community": 25,
+      "norm_label": "exp3_multisalida.jl"
+    },
+    {
+      "label": "problema_4salidas()",
+      "file_type": "code",
+      "source_file": "benchmarks/exp3_multisalida.jl",
+      "source_location": "L18",
+      "id": "benchmarks_exp3_multisalida_problema_4salidas",
+      "community": 25,
+      "norm_label": "problema_4salidas()"
+    },
+    {
+      "label": "exp3_multisalida()",
+      "file_type": "code",
+      "source_file": "benchmarks/exp3_multisalida.jl",
+      "source_location": "L30",
+      "id": "benchmarks_exp3_multisalida_exp3_multisalida",
+      "community": 25,
+      "norm_label": "exp3_multisalida()"
+    },
+    {
+      "label": "exp4_comparacion.jl",
+      "file_type": "code",
+      "source_file": "benchmarks/exp4_comparacion.jl",
+      "source_location": "L1",
+      "id": "benchmarks_exp4_comparacion",
+      "community": 26,
+      "norm_label": "exp4_comparacion.jl"
+    },
+    {
+      "label": "entrenar_red_completa()",
+      "file_type": "code",
+      "source_file": "benchmarks/exp4_comparacion.jl",
+      "source_location": "L16",
+      "id": "benchmarks_exp4_comparacion_entrenar_red_completa",
+      "community": 26,
+      "norm_label": "entrenar_red_completa()"
+    },
+    {
+      "label": "exp4_comparacion()",
+      "file_type": "code",
+      "source_file": "benchmarks/exp4_comparacion.jl",
+      "source_location": "L34",
+      "id": "benchmarks_exp4_comparacion_exp4_comparacion",
+      "community": 26,
+      "norm_label": "exp4_comparacion()"
+    },
+    {
+      "label": "exp5_estadisticas.jl",
+      "file_type": "code",
+      "source_file": "benchmarks/exp5_estadisticas.jl",
+      "source_location": "L1",
+      "id": "benchmarks_exp5_estadisticas",
+      "community": 27,
+      "norm_label": "exp5_estadisticas.jl"
+    },
+    {
+      "label": "distribucion_neuronas()",
+      "file_type": "code",
+      "source_file": "benchmarks/exp5_estadisticas.jl",
+      "source_location": "L13",
+      "id": "benchmarks_exp5_estadisticas_distribucion_neuronas",
+      "community": 27,
+      "norm_label": "distribucion_neuronas()"
+    },
+    {
+      "label": "exp5_estadisticas()",
+      "file_type": "code",
+      "source_file": "benchmarks/exp5_estadisticas.jl",
+      "source_location": "L23",
+      "id": "benchmarks_exp5_estadisticas_exp5_estadisticas",
+      "community": 27,
+      "norm_label": "exp5_estadisticas()"
+    },
+    {
+      "label": "exp6_iris.jl",
+      "file_type": "code",
+      "source_file": "benchmarks/exp6_iris.jl",
+      "source_location": "L1",
+      "id": "benchmarks_exp6_iris",
+      "community": 16,
+      "norm_label": "exp6_iris.jl"
+    },
+    {
+      "label": "cargar_iris()",
+      "file_type": "code",
+      "source_file": "benchmarks/exp6_iris.jl",
+      "source_location": "L18",
+      "id": "benchmarks_exp6_iris_cargar_iris",
+      "community": 16,
+      "norm_label": "cargar_iris()"
+    },
+    {
+      "label": "split_datos()",
+      "file_type": "code",
+      "source_file": "benchmarks/exp6_iris.jl",
+      "source_location": "L85",
+      "id": "benchmarks_exp6_iris_split_datos",
+      "community": 16,
+      "norm_label": "split_datos()"
+    },
+    {
+      "label": "exp6_iris()",
+      "file_type": "code",
+      "source_file": "benchmarks/exp6_iris.jl",
+      "source_location": "L114",
+      "id": "benchmarks_exp6_iris_exp6_iris",
+      "community": 16,
+      "norm_label": "exp6_iris()"
+    },
+    {
+      "label": "exp7_wine.jl",
+      "file_type": "code",
+      "source_file": "benchmarks/exp7_wine.jl",
+      "source_location": "L1",
+      "id": "benchmarks_exp7_wine",
+      "community": 17,
+      "norm_label": "exp7_wine.jl"
+    },
+    {
+      "label": "cargar_wine()",
+      "file_type": "code",
+      "source_file": "benchmarks/exp7_wine.jl",
+      "source_location": "L14",
+      "id": "benchmarks_exp7_wine_cargar_wine",
+      "community": 17,
+      "norm_label": "cargar_wine()"
+    },
+    {
+      "label": "split_datos()",
+      "file_type": "code",
+      "source_file": "benchmarks/exp7_wine.jl",
+      "source_location": "L53",
+      "id": "benchmarks_exp7_wine_split_datos",
+      "community": 17,
+      "norm_label": "split_datos()"
+    },
+    {
+      "label": "exp7_wine()",
+      "file_type": "code",
+      "source_file": "benchmarks/exp7_wine.jl",
+      "source_location": "L73",
+      "id": "benchmarks_exp7_wine_exp7_wine",
+      "community": 17,
+      "norm_label": "exp7_wine()"
+    },
+    {
+      "label": "exp8_cancer.jl",
+      "file_type": "code",
+      "source_file": "benchmarks/exp8_cancer.jl",
+      "source_location": "L1",
+      "id": "benchmarks_exp8_cancer",
+      "community": 13,
+      "norm_label": "exp8_cancer.jl"
+    },
+    {
+      "label": "Atomic",
+      "file_type": "code",
+      "source_file": "benchmarks/exp8_cancer.jl",
+      "source_location": "L13",
+      "id": "benchmarks_exp8_cancer_jl_atomic",
+      "community": 13,
+      "norm_label": "atomic"
+    },
+    {
+      "label": "cargar_cancer()",
+      "file_type": "code",
+      "source_file": "benchmarks/exp8_cancer.jl",
+      "source_location": "L15",
+      "id": "benchmarks_exp8_cancer_cargar_cancer",
+      "community": 13,
+      "norm_label": "cargar_cancer()"
+    },
+    {
+      "label": "split_cancer()",
+      "file_type": "code",
+      "source_file": "benchmarks/exp8_cancer.jl",
+      "source_location": "L55",
+      "id": "benchmarks_exp8_cancer_split_cancer",
+      "community": 13,
+      "norm_label": "split_cancer()"
+    },
+    {
+      "label": "exp8_cancer()",
+      "file_type": "code",
+      "source_file": "benchmarks/exp8_cancer.jl",
+      "source_location": "L73",
+      "id": "benchmarks_exp8_cancer_exp8_cancer",
+      "community": 13,
+      "norm_label": "exp8_cancer()"
+    },
+    {
+      "label": "exp9_sinteticos2d.jl",
+      "file_type": "code",
+      "source_file": "benchmarks/exp9_sinteticos2d.jl",
+      "source_location": "L1",
+      "id": "benchmarks_exp9_sinteticos2d",
+      "community": 5,
+      "norm_label": "exp9_sinteticos2d.jl"
+    },
+    {
+      "label": "generar_lunas()",
+      "file_type": "code",
+      "source_file": "benchmarks/exp9_sinteticos2d.jl",
+      "source_location": "L23",
+      "id": "benchmarks_exp9_sinteticos2d_generar_lunas",
+      "community": 5,
+      "norm_label": "generar_lunas()"
+    },
+    {
+      "label": "generar_circulos()",
+      "file_type": "code",
+      "source_file": "benchmarks/exp9_sinteticos2d.jl",
+      "source_location": "L41",
+      "id": "benchmarks_exp9_sinteticos2d_generar_circulos",
+      "community": 5,
+      "norm_label": "generar_circulos()"
+    },
+    {
+      "label": "generar_espirales()",
+      "file_type": "code",
+      "source_file": "benchmarks/exp9_sinteticos2d.jl",
+      "source_location": "L61",
+      "id": "benchmarks_exp9_sinteticos2d_generar_espirales",
+      "community": 5,
+      "norm_label": "generar_espirales()"
+    },
+    {
+      "label": "generar_4clusters()",
+      "file_type": "code",
+      "source_file": "benchmarks/exp9_sinteticos2d.jl",
+      "source_location": "L81",
+      "id": "benchmarks_exp9_sinteticos2d_generar_4clusters",
+      "community": 5,
+      "norm_label": "generar_4clusters()"
+    },
+    {
+      "label": "normalizar_entradas()",
+      "file_type": "code",
+      "source_file": "benchmarks/exp9_sinteticos2d.jl",
+      "source_location": "L101",
+      "id": "benchmarks_exp9_sinteticos2d_normalizar_entradas",
+      "community": 5,
+      "norm_label": "normalizar_entradas()"
+    },
+    {
+      "label": "split_sintetico()",
+      "file_type": "code",
+      "source_file": "benchmarks/exp9_sinteticos2d.jl",
+      "source_location": "L111",
+      "id": "benchmarks_exp9_sinteticos2d_split_sintetico",
+      "community": 5,
+      "norm_label": "split_sintetico()"
+    },
+    {
+      "label": "ejecutar_sintetico()",
+      "file_type": "code",
+      "source_file": "benchmarks/exp9_sinteticos2d.jl",
+      "source_location": "L126",
+      "id": "benchmarks_exp9_sinteticos2d_ejecutar_sintetico",
+      "community": 5,
+      "norm_label": "ejecutar_sintetico()"
+    },
+    {
+      "label": "exp9_sinteticos()",
+      "file_type": "code",
+      "source_file": "benchmarks/exp9_sinteticos2d.jl",
+      "source_location": "L178",
+      "id": "benchmarks_exp9_sinteticos2d_exp9_sinteticos",
+      "community": 5,
+      "norm_label": "exp9_sinteticos()"
+    },
+    {
+      "label": "run_benchmarks.jl",
+      "file_type": "code",
+      "source_file": "benchmarks/run_benchmarks.jl",
+      "source_location": "L1",
+      "id": "benchmarks_run_benchmarks",
+      "community": 0,
+      "norm_label": "run_benchmarks.jl"
+    },
+    {
+      "label": "DivisionNeuronal",
+      "file_type": "code",
+      "source_file": "benchmarks/run_benchmarks.jl",
+      "source_location": "L11",
+      "id": "benchmarks_run_benchmarks_jl_divisionneuronal",
+      "community": 0,
+      "norm_label": "divisionneuronal"
+    },
+    {
+      "label": "Random",
+      "file_type": "code",
+      "source_file": "benchmarks/run_benchmarks.jl",
+      "source_location": "L12",
+      "id": "benchmarks_run_benchmarks_jl_random",
+      "community": 0,
+      "norm_label": "random"
+    },
+    {
+      "label": "Printf",
+      "file_type": "code",
+      "source_file": "benchmarks/run_benchmarks.jl",
+      "source_location": "L13",
+      "id": "benchmarks_run_benchmarks_jl_printf",
+      "community": 0,
+      "norm_label": "printf"
+    },
+    {
+      "label": "Statistics",
+      "file_type": "code",
+      "source_file": "benchmarks/run_benchmarks.jl",
+      "source_location": "L14",
+      "id": "benchmarks_run_benchmarks_jl_statistics",
+      "community": 0,
+      "norm_label": "statistics"
+    },
+    {
+      "label": "crear_red()",
+      "file_type": "code",
+      "source_file": "benchmarks/run_benchmarks.jl",
+      "source_location": "L24",
+      "id": "benchmarks_run_benchmarks_crear_red",
+      "community": 0,
+      "norm_label": "crear_red()"
+    },
+    {
+      "label": "tabla_verdad()",
+      "file_type": "code",
+      "source_file": "benchmarks/run_benchmarks.jl",
+      "source_location": "L40",
+      "id": "benchmarks_run_benchmarks_tabla_verdad",
+      "community": 0,
+      "norm_label": "tabla_verdad()"
+    },
+    {
+      "label": "imprimir_resultado()",
+      "file_type": "code",
+      "source_file": "benchmarks/run_benchmarks.jl",
+      "source_location": "L54",
+      "id": "benchmarks_run_benchmarks_imprimir_resultado",
+      "community": 0,
+      "norm_label": "imprimir_resultado()"
+    },
+    {
+      "label": "problema_xor()",
+      "file_type": "code",
+      "source_file": "benchmarks/run_benchmarks.jl",
+      "source_location": "L105",
+      "id": "benchmarks_run_benchmarks_problema_xor",
+      "community": 0,
+      "norm_label": "problema_xor()"
+    },
+    {
+      "label": "problema_and()",
+      "file_type": "code",
+      "source_file": "benchmarks/run_benchmarks.jl",
+      "source_location": "L114",
+      "id": "benchmarks_run_benchmarks_problema_and",
+      "community": 0,
+      "norm_label": "problema_and()"
+    },
+    {
+      "label": "problema_or()",
+      "file_type": "code",
+      "source_file": "benchmarks/run_benchmarks.jl",
+      "source_location": "L123",
+      "id": "benchmarks_run_benchmarks_problema_or",
+      "community": 0,
+      "norm_label": "problema_or()"
+    },
+    {
+      "label": "problema_nand()",
+      "file_type": "code",
+      "source_file": "benchmarks/run_benchmarks.jl",
+      "source_location": "L132",
+      "id": "benchmarks_run_benchmarks_problema_nand",
+      "community": 0,
+      "norm_label": "problema_nand()"
+    },
+    {
+      "label": "problema_multi_logica()",
+      "file_type": "code",
+      "source_file": "benchmarks/run_benchmarks.jl",
+      "source_location": "L142",
+      "id": "benchmarks_run_benchmarks_problema_multi_logica",
+      "community": 0,
+      "norm_label": "problema_multi_logica()"
+    },
+    {
+      "label": "problema_paridad_3bits()",
+      "file_type": "code",
+      "source_file": "benchmarks/run_benchmarks.jl",
+      "source_location": "L159",
+      "id": "benchmarks_run_benchmarks_problema_paridad_3bits",
+      "community": 0,
+      "norm_label": "problema_paridad_3bits()"
+    },
+    {
+      "label": "problema_encoder_4a2()",
+      "file_type": "code",
+      "source_file": "benchmarks/run_benchmarks.jl",
+      "source_location": "L169",
+      "id": "benchmarks_run_benchmarks_problema_encoder_4a2",
+      "community": 0,
+      "norm_label": "problema_encoder_4a2()"
+    },
+    {
+      "label": "ejecutar_benchmark()",
+      "file_type": "code",
+      "source_file": "benchmarks/run_benchmarks.jl",
+      "source_location": "L189",
+      "id": "benchmarks_run_benchmarks_ejecutar_benchmark",
+      "community": 0,
+      "norm_label": "ejecutar_benchmark()"
+    },
+    {
+      "label": "main()",
+      "file_type": "code",
+      "source_file": "benchmarks/run_benchmarks.jl",
+      "source_location": "L267",
+      "id": "benchmarks_run_benchmarks_main",
+      "community": 0,
+      "norm_label": "main()"
+    },
+    {
+      "label": "utils.jl",
+      "file_type": "code",
+      "source_file": "benchmarks/utils.jl",
+      "source_location": "L1",
+      "id": "benchmarks_utils",
+      "community": 1,
+      "norm_label": "utils.jl"
+    },
+    {
+      "label": "DivisionNeuronal",
+      "file_type": "code",
+      "source_file": "benchmarks/utils.jl",
+      "source_location": "L5",
+      "id": "benchmarks_utils_jl_divisionneuronal",
+      "community": 1,
+      "norm_label": "divisionneuronal"
+    },
+    {
+      "label": "Random",
+      "file_type": "code",
+      "source_file": "benchmarks/utils.jl",
+      "source_location": "L6",
+      "id": "benchmarks_utils_jl_random",
+      "community": 1,
+      "norm_label": "random"
+    },
+    {
+      "label": "Printf",
+      "file_type": "code",
+      "source_file": "benchmarks/utils.jl",
+      "source_location": "L7",
+      "id": "benchmarks_utils_jl_printf",
+      "community": 1,
+      "norm_label": "printf"
+    },
+    {
+      "label": "Statistics",
+      "file_type": "code",
+      "source_file": "benchmarks/utils.jl",
+      "source_location": "L8",
+      "id": "benchmarks_utils_jl_statistics",
+      "community": 1,
+      "norm_label": "statistics"
+    },
+    {
+      "label": "crear_red()",
+      "file_type": "code",
+      "source_file": "benchmarks/utils.jl",
+      "source_location": "L13",
+      "id": "benchmarks_utils_crear_red",
+      "community": 1,
+      "norm_label": "crear_red()"
+    },
+    {
+      "label": "tabla_verdad()",
+      "file_type": "code",
+      "source_file": "benchmarks/utils.jl",
+      "source_location": "L29",
+      "id": "benchmarks_utils_tabla_verdad",
+      "community": 1,
+      "norm_label": "tabla_verdad()"
+    },
+    {
+      "label": "problema_xor()",
+      "file_type": "code",
+      "source_file": "benchmarks/utils.jl",
+      "source_location": "L48",
+      "id": "benchmarks_utils_problema_xor",
+      "community": 1,
+      "norm_label": "problema_xor()"
+    },
+    {
+      "label": "problema_and()",
+      "file_type": "code",
+      "source_file": "benchmarks/utils.jl",
+      "source_location": "L54",
+      "id": "benchmarks_utils_problema_and",
+      "community": 1,
+      "norm_label": "problema_and()"
+    },
+    {
+      "label": "problema_or()",
+      "file_type": "code",
+      "source_file": "benchmarks/utils.jl",
+      "source_location": "L60",
+      "id": "benchmarks_utils_problema_or",
+      "community": 1,
+      "norm_label": "problema_or()"
+    },
+    {
+      "label": "problema_nand()",
+      "file_type": "code",
+      "source_file": "benchmarks/utils.jl",
+      "source_location": "L66",
+      "id": "benchmarks_utils_problema_nand",
+      "community": 1,
+      "norm_label": "problema_nand()"
+    },
+    {
+      "label": "problema_multi_logica()",
+      "file_type": "code",
+      "source_file": "benchmarks/utils.jl",
+      "source_location": "L72",
+      "id": "benchmarks_utils_problema_multi_logica",
+      "community": 1,
+      "norm_label": "problema_multi_logica()"
+    },
+    {
+      "label": "problema_paridad_3bits()",
+      "file_type": "code",
+      "source_file": "benchmarks/utils.jl",
+      "source_location": "L78",
+      "id": "benchmarks_utils_problema_paridad_3bits",
+      "community": 1,
+      "norm_label": "problema_paridad_3bits()"
+    },
+    {
+      "label": "problema_encoder_4a2()",
+      "file_type": "code",
+      "source_file": "benchmarks/utils.jl",
+      "source_location": "L84",
+      "id": "benchmarks_utils_problema_encoder_4a2",
+      "community": 1,
+      "norm_label": "problema_encoder_4a2()"
+    },
+    {
+      "label": "ejecutar_una()",
+      "file_type": "code",
+      "source_file": "benchmarks/utils.jl",
+      "source_location": "L94",
+      "id": "benchmarks_utils_ejecutar_una",
+      "community": 1,
+      "norm_label": "ejecutar_una()"
+    },
+    {
+      "label": "DivisionNeuronal.jl",
+      "file_type": "code",
+      "source_file": "src/DivisionNeuronal.jl",
+      "source_location": "L1",
+      "id": "src_divisionneuronal",
+      "community": 38,
+      "norm_label": "divisionneuronal.jl"
+    },
+    {
+      "label": "DivisionNeuronal",
+      "file_type": "code",
+      "source_file": "src/DivisionNeuronal.jl",
+      "source_location": "L1",
+      "id": "src_divisionneuronal_divisionneuronal",
+      "community": 38,
+      "norm_label": "divisionneuronal"
+    },
+    {
+      "label": "comparador.jl",
+      "file_type": "code",
+      "source_file": "src/comparador.jl",
+      "source_location": "L1",
+      "id": "src_comparador",
+      "community": 44,
+      "norm_label": "comparador.jl"
+    },
+    {
+      "label": "embeddings.jl",
+      "file_type": "code",
+      "source_file": "src/embeddings.jl",
+      "source_location": "L1",
+      "id": "src_embeddings",
+      "community": 39,
+      "norm_label": "embeddings.jl"
+    },
+    {
+      "label": "LinearAlgebra",
+      "file_type": "code",
+      "source_file": "src/embeddings.jl",
+      "source_location": "L10",
+      "id": "src_embeddings_jl_linearalgebra",
+      "community": 39,
+      "norm_label": "linearalgebra"
+    },
+    {
+      "label": "entrenamiento.jl",
+      "file_type": "code",
+      "source_file": "src/entrenamiento.jl",
+      "source_location": "L1",
+      "id": "src_entrenamiento",
+      "community": 28,
+      "norm_label": "entrenamiento.jl"
+    },
+    {
+      "label": "Random",
+      "file_type": "code",
+      "source_file": "src/entrenamiento.jl",
+      "source_location": "L8",
+      "id": "src_entrenamiento_jl_random",
+      "community": 28,
+      "norm_label": "random"
+    },
+    {
+      "label": "Statistics",
+      "file_type": "code",
+      "source_file": "src/entrenamiento.jl",
+      "source_location": "L9",
+      "id": "src_entrenamiento_jl_statistics",
+      "community": 28,
+      "norm_label": "statistics"
+    },
+    {
+      "label": "errores.jl",
+      "file_type": "code",
+      "source_file": "src/errores.jl",
+      "source_location": "L1",
+      "id": "src_errores",
+      "community": 11,
+      "norm_label": "errores.jl"
+    },
+    {
+      "label": "RedBaseNoInicializadaError",
+      "file_type": "code",
+      "source_file": "src/errores.jl",
+      "source_location": "L3",
+      "id": "src_errores_redbasenoinicializadaerror",
+      "community": 11,
+      "norm_label": "redbasenoinicializadaerror"
+    },
+    {
+      "label": "Exception",
+      "file_type": "code",
+      "source_file": "src/errores.jl",
+      "source_location": "L3",
+      "id": "exception",
+      "community": 11,
+      "norm_label": "exception"
+    },
+    {
+      "label": "String",
+      "file_type": "code",
+      "source_file": "src/errores.jl",
+      "source_location": "L4",
+      "id": "string",
+      "community": 11,
+      "norm_label": "string"
+    },
+    {
+      "label": "NeuronasInvalidasError",
+      "file_type": "code",
+      "source_file": "src/errores.jl",
+      "source_location": "L7",
+      "id": "src_errores_neuronasinvalidaserror",
+      "community": 11,
+      "norm_label": "neuronasinvalidaserror"
+    },
+    {
+      "label": "UmbralFueraDeRangoError",
+      "file_type": "code",
+      "source_file": "src/errores.jl",
+      "source_location": "L11",
+      "id": "src_errores_umbralfueraderangoerror",
+      "community": 11,
+      "norm_label": "umbralfueraderangoerror"
+    },
+    {
+      "label": "evaluador.jl",
+      "file_type": "code",
+      "source_file": "src/evaluador.jl",
+      "source_location": "L1",
+      "id": "src_evaluador",
+      "community": 29,
+      "norm_label": "evaluador.jl"
+    },
+    {
+      "label": "sigmoid()",
+      "file_type": "code",
+      "source_file": "src/evaluador.jl",
+      "source_location": "L13",
+      "id": "src_evaluador_sigmoid",
+      "community": 29,
+      "norm_label": "sigmoid()"
+    },
+    {
+      "label": "subconjuntos_no_vacios()",
+      "file_type": "code",
+      "source_file": "src/evaluador.jl",
+      "source_location": "L39",
+      "id": "src_evaluador_subconjuntos_no_vacios",
+      "community": 29,
+      "norm_label": "subconjuntos_no_vacios()"
+    },
+    {
+      "label": "generador.jl",
+      "file_type": "code",
+      "source_file": "src/generador.jl",
+      "source_location": "L1",
+      "id": "src_generador",
+      "community": 40,
+      "norm_label": "generador.jl"
+    },
+    {
+      "label": "bitmask_a_indices()",
+      "file_type": "code",
+      "source_file": "src/generador.jl",
+      "source_location": "L27",
+      "id": "src_generador_bitmask_a_indices",
+      "community": 40,
+      "norm_label": "bitmask_a_indices()"
+    },
+    {
+      "label": "gpu_backend.jl",
+      "file_type": "code",
+      "source_file": "src/gpu_backend.jl",
+      "source_location": "L1",
+      "id": "src_gpu_backend",
+      "community": 4,
+      "norm_label": "gpu_backend.jl"
+    },
+    {
+      "label": "backend_actual()",
+      "file_type": "code",
+      "source_file": "src/gpu_backend.jl",
+      "source_location": "L34",
+      "id": "src_gpu_backend_backend_actual",
+      "community": 4,
+      "norm_label": "backend_actual()"
+    },
+    {
+      "label": "seleccionar_backend!()",
+      "file_type": "code",
+      "source_file": "src/gpu_backend.jl",
+      "source_location": "L41",
+      "id": "src_gpu_backend_seleccionar_backend",
+      "community": 4,
+      "norm_label": "seleccionar_backend!()"
+    },
+    {
+      "label": "inicializar_gpu!()",
+      "file_type": "code",
+      "source_file": "src/gpu_backend.jl",
+      "source_location": "L59",
+      "id": "src_gpu_backend_inicializar_gpu",
+      "community": 4,
+      "norm_label": "inicializar_gpu!()"
+    },
+    {
+      "label": "_cuda_disponible()",
+      "file_type": "code",
+      "source_file": "src/gpu_backend.jl",
+      "source_location": "L84",
+      "id": "src_gpu_backend_cuda_disponible",
+      "community": 4,
+      "norm_label": "_cuda_disponible()"
+    },
+    {
+      "label": "_rocm_disponible()",
+      "file_type": "code",
+      "source_file": "src/gpu_backend.jl",
+      "source_location": "L93",
+      "id": "src_gpu_backend_rocm_disponible",
+      "community": 4,
+      "norm_label": "_rocm_disponible()"
+    },
+    {
+      "label": "_verificar_cuda()",
+      "file_type": "code",
+      "source_file": "src/gpu_backend.jl",
+      "source_location": "L102",
+      "id": "src_gpu_backend_verificar_cuda",
+      "community": 4,
+      "norm_label": "_verificar_cuda()"
+    },
+    {
+      "label": "_verificar_rocm()",
+      "file_type": "code",
+      "source_file": "src/gpu_backend.jl",
+      "source_location": "L106",
+      "id": "src_gpu_backend_verificar_rocm",
+      "community": 4,
+      "norm_label": "_verificar_rocm()"
+    },
+    {
+      "label": "a_dispositivo()",
+      "file_type": "code",
+      "source_file": "src/gpu_backend.jl",
+      "source_location": "L119",
+      "id": "src_gpu_backend_a_dispositivo",
+      "community": 4,
+      "norm_label": "a_dispositivo()"
+    },
+    {
+      "label": "a_cpu()",
+      "file_type": "code",
+      "source_file": "src/gpu_backend.jl",
+      "source_location": "L146",
+      "id": "src_gpu_backend_a_cpu",
+      "community": 4,
+      "norm_label": "a_cpu()"
+    },
+    {
+      "label": "info_dispositivo()",
+      "file_type": "code",
+      "source_file": "src/gpu_backend.jl",
+      "source_location": "L191",
+      "id": "src_gpu_backend_info_dispositivo",
+      "community": 4,
+      "norm_label": "info_dispositivo()"
+    },
+    {
+      "label": "mapa_soluciones.jl",
+      "file_type": "code",
+      "source_file": "src/mapa_soluciones.jl",
+      "source_location": "L1",
+      "id": "src_mapa_soluciones",
+      "community": 45,
+      "norm_label": "mapa_soluciones.jl"
+    },
+    {
+      "label": "motor.jl",
+      "file_type": "code",
+      "source_file": "src/motor.jl",
+      "source_location": "L1",
+      "id": "src_motor",
+      "community": 41,
+      "norm_label": "motor.jl"
+    },
+    {
+      "label": "Atomic",
+      "file_type": "code",
+      "source_file": "src/motor.jl",
+      "source_location": "L9",
+      "id": "src_motor_jl_atomic",
+      "community": 41,
+      "norm_label": "atomic"
+    },
+    {
+      "label": "progreso.jl",
+      "file_type": "code",
+      "source_file": "src/progreso.jl",
+      "source_location": "L1",
+      "id": "src_progreso",
+      "community": 42,
+      "norm_label": "progreso.jl"
+    },
+    {
+      "label": "Atomic",
+      "file_type": "code",
+      "source_file": "src/progreso.jl",
+      "source_location": "L8",
+      "id": "src_progreso_jl_atomic",
+      "community": 42,
+      "norm_label": "atomic"
+    },
+    {
+      "label": "seleccion.jl",
+      "file_type": "code",
+      "source_file": "src/seleccion.jl",
+      "source_location": "L1",
+      "id": "src_seleccion",
+      "community": 46,
+      "norm_label": "seleccion.jl"
+    },
+    {
+      "label": "serializacion.jl",
+      "file_type": "code",
+      "source_file": "src/serializacion.jl",
+      "source_location": "L1",
+      "id": "src_serializacion",
+      "community": 37,
+      "norm_label": "serializacion.jl"
+    },
+    {
+      "label": "JLD2",
+      "file_type": "code",
+      "source_file": "src/serializacion.jl",
+      "source_location": "L8",
+      "id": "jld2",
+      "community": 37,
+      "norm_label": "jld2"
+    },
+    {
+      "label": "tipos.jl",
+      "file_type": "code",
+      "source_file": "src/tipos.jl",
+      "source_location": "L1",
+      "id": "src_tipos",
+      "community": 30,
+      "norm_label": "tipos.jl"
+    },
+    {
+      "label": "ProgresoExploracion",
+      "file_type": "code",
+      "source_file": "src/tipos.jl",
+      "source_location": "L86",
+      "id": "src_tipos_progresoexploracion",
+      "community": 30,
+      "norm_label": "progresoexploracion"
+    },
+    {
+      "label": "Int",
+      "file_type": "code",
+      "source_file": "src/tipos.jl",
+      "source_location": "L87",
+      "id": "src_tipos_jl_int",
+      "community": 30,
+      "norm_label": "int"
+    },
+    {
+      "label": "validacion.jl",
+      "file_type": "code",
+      "source_file": "src/validacion.jl",
+      "source_location": "L1",
+      "id": "src_validacion",
+      "community": 18,
+      "norm_label": "validacion.jl"
+    },
+    {
+      "label": "validar_red_base()",
+      "file_type": "code",
+      "source_file": "src/validacion.jl",
+      "source_location": "L22",
+      "id": "src_validacion_validar_red_base",
+      "community": 18,
+      "norm_label": "validar_red_base()"
+    },
+    {
+      "label": "validar_neuronas()",
+      "file_type": "code",
+      "source_file": "src/validacion.jl",
+      "source_location": "L64",
+      "id": "src_validacion_validar_neuronas",
+      "community": 18,
+      "norm_label": "validar_neuronas()"
+    },
+    {
+      "label": "validar_umbral()",
+      "file_type": "code",
+      "source_file": "src/validacion.jl",
+      "source_location": "L79",
+      "id": "src_validacion_validar_umbral",
+      "community": 18,
+      "norm_label": "validar_umbral()"
+    },
+    {
+      "label": "generadores.jl",
+      "file_type": "code",
+      "source_file": "test/generadores.jl",
+      "source_location": "L1",
+      "id": "test_generadores",
+      "community": 19,
+      "norm_label": "generadores.jl"
+    },
+    {
+      "label": "PropCheck",
+      "file_type": "code",
+      "source_file": "test/generadores.jl",
+      "source_location": "L8",
+      "id": "test_generadores_jl_propcheck",
+      "community": 19,
+      "norm_label": "propcheck"
+    },
+    {
+      "label": "DivisionNeuronal",
+      "file_type": "code",
+      "source_file": "test/generadores.jl",
+      "source_location": "L9",
+      "id": "test_generadores_jl_divisionneuronal",
+      "community": 19,
+      "norm_label": "divisionneuronal"
+    },
+    {
+      "label": "gen_mapa_soluciones()",
+      "file_type": "code",
+      "source_file": "test/generadores.jl",
+      "source_location": "L78",
+      "id": "test_generadores_gen_mapa_soluciones",
+      "community": 19,
+      "norm_label": "gen_mapa_soluciones()"
+    },
+    {
+      "label": "runtests.jl",
+      "file_type": "code",
+      "source_file": "test/runtests.jl",
+      "source_location": "L1",
+      "id": "test_runtests",
+      "community": 43,
+      "norm_label": "runtests.jl"
+    },
+    {
+      "label": "Test",
+      "file_type": "code",
+      "source_file": "test/runtests.jl",
+      "source_location": "L1",
+      "id": "test_runtests_jl_test",
+      "community": 43,
+      "norm_label": "test"
+    },
+    {
+      "label": "test_entrenamiento.jl",
+      "file_type": "code",
+      "source_file": "test/test_entrenamiento.jl",
+      "source_location": "L1",
+      "id": "test_test_entrenamiento",
+      "community": 31,
+      "norm_label": "test_entrenamiento.jl"
+    },
+    {
+      "label": "Test",
+      "file_type": "code",
+      "source_file": "test/test_entrenamiento.jl",
+      "source_location": "L1",
+      "id": "test_test_entrenamiento_jl_test",
+      "community": 31,
+      "norm_label": "test"
+    },
+    {
+      "label": "DivisionNeuronal",
+      "file_type": "code",
+      "source_file": "test/test_entrenamiento.jl",
+      "source_location": "L2",
+      "id": "test_test_entrenamiento_jl_divisionneuronal",
+      "community": 31,
+      "norm_label": "divisionneuronal"
+    },
+    {
+      "label": "test_evaluador.jl",
+      "file_type": "code",
+      "source_file": "test/test_evaluador.jl",
+      "source_location": "L1",
+      "id": "test_test_evaluador",
+      "community": 20,
+      "norm_label": "test_evaluador.jl"
+    },
+    {
+      "label": "Test",
+      "file_type": "code",
+      "source_file": "test/test_evaluador.jl",
+      "source_location": "L1",
+      "id": "test_test_evaluador_jl_test",
+      "community": 20,
+      "norm_label": "test"
+    },
+    {
+      "label": "DivisionNeuronal",
+      "file_type": "code",
+      "source_file": "test/test_evaluador.jl",
+      "source_location": "L2",
+      "id": "test_test_evaluador_jl_divisionneuronal",
+      "community": 20,
+      "norm_label": "divisionneuronal"
+    },
+    {
+      "label": "hacer_sub()",
+      "file_type": "code",
+      "source_file": "test/test_evaluador.jl",
+      "source_location": "L162",
+      "id": "test_test_evaluador_hacer_sub",
+      "community": 20,
+      "norm_label": "hacer_sub()"
+    },
+    {
+      "label": "test_generador.jl",
+      "file_type": "code",
+      "source_file": "test/test_generador.jl",
+      "source_location": "L1",
+      "id": "test_test_generador",
+      "community": 32,
+      "norm_label": "test_generador.jl"
+    },
+    {
+      "label": "Test",
+      "file_type": "code",
+      "source_file": "test/test_generador.jl",
+      "source_location": "L1",
+      "id": "test_test_generador_jl_test",
+      "community": 32,
+      "norm_label": "test"
+    },
+    {
+      "label": "DivisionNeuronal",
+      "file_type": "code",
+      "source_file": "test/test_generador.jl",
+      "source_location": "L2",
+      "id": "test_test_generador_jl_divisionneuronal",
+      "community": 32,
+      "norm_label": "divisionneuronal"
+    },
+    {
+      "label": "test_integracion.jl",
+      "file_type": "code",
+      "source_file": "test/test_integracion.jl",
+      "source_location": "L1",
+      "id": "test_test_integracion",
+      "community": 21,
+      "norm_label": "test_integracion.jl"
+    },
+    {
+      "label": "Test",
+      "file_type": "code",
+      "source_file": "test/test_integracion.jl",
+      "source_location": "L1",
+      "id": "test_test_integracion_jl_test",
+      "community": 21,
+      "norm_label": "test"
+    },
+    {
+      "label": "DivisionNeuronal",
+      "file_type": "code",
+      "source_file": "test/test_integracion.jl",
+      "source_location": "L2",
+      "id": "test_test_integracion_jl_divisionneuronal",
+      "community": 21,
+      "norm_label": "divisionneuronal"
+    },
+    {
+      "label": "Atomic",
+      "file_type": "code",
+      "source_file": "test/test_integracion.jl",
+      "source_location": "L3",
+      "id": "test_test_integracion_jl_atomic",
+      "community": 21,
+      "norm_label": "atomic"
+    },
+    {
+      "label": "test_mapa_soluciones.jl",
+      "file_type": "code",
+      "source_file": "test/test_mapa_soluciones.jl",
+      "source_location": "L1",
+      "id": "test_test_mapa_soluciones",
+      "community": 22,
+      "norm_label": "test_mapa_soluciones.jl"
+    },
+    {
+      "label": "Test",
+      "file_type": "code",
+      "source_file": "test/test_mapa_soluciones.jl",
+      "source_location": "L1",
+      "id": "test_test_mapa_soluciones_jl_test",
+      "community": 22,
+      "norm_label": "test"
+    },
+    {
+      "label": "DivisionNeuronal",
+      "file_type": "code",
+      "source_file": "test/test_mapa_soluciones.jl",
+      "source_location": "L2",
+      "id": "test_test_mapa_soluciones_jl_divisionneuronal",
+      "community": 22,
+      "norm_label": "divisionneuronal"
+    },
+    {
+      "label": "make_subconfig()",
+      "file_type": "code",
+      "source_file": "test/test_mapa_soluciones.jl",
+      "source_location": "L53",
+      "id": "test_test_mapa_soluciones_make_subconfig",
+      "community": 22,
+      "norm_label": "make_subconfig()"
+    },
+    {
+      "label": "test_progreso.jl",
+      "file_type": "code",
+      "source_file": "test/test_progreso.jl",
+      "source_location": "L1",
+      "id": "test_test_progreso",
+      "community": 23,
+      "norm_label": "test_progreso.jl"
+    },
+    {
+      "label": "Test",
+      "file_type": "code",
+      "source_file": "test/test_progreso.jl",
+      "source_location": "L1",
+      "id": "test_test_progreso_jl_test",
+      "community": 23,
+      "norm_label": "test"
+    },
+    {
+      "label": "DivisionNeuronal",
+      "file_type": "code",
+      "source_file": "test/test_progreso.jl",
+      "source_location": "L2",
+      "id": "test_test_progreso_jl_divisionneuronal",
+      "community": 23,
+      "norm_label": "divisionneuronal"
+    },
+    {
+      "label": "Atomic",
+      "file_type": "code",
+      "source_file": "test/test_progreso.jl",
+      "source_location": "L3",
+      "id": "test_test_progreso_jl_atomic",
+      "community": 23,
+      "norm_label": "atomic"
+    },
+    {
+      "label": "test_propiedades.jl",
+      "file_type": "code",
+      "source_file": "test/test_propiedades.jl",
+      "source_location": "L1",
+      "id": "test_test_propiedades",
+      "community": 14,
+      "norm_label": "test_propiedades.jl"
+    },
+    {
+      "label": "Test",
+      "file_type": "code",
+      "source_file": "test/test_propiedades.jl",
+      "source_location": "L1",
+      "id": "test_test_propiedades_jl_test",
+      "community": 14,
+      "norm_label": "test"
+    },
+    {
+      "label": "PropCheck",
+      "file_type": "code",
+      "source_file": "test/test_propiedades.jl",
+      "source_location": "L2",
+      "id": "test_test_propiedades_jl_propcheck",
+      "community": 14,
+      "norm_label": "propcheck"
+    },
+    {
+      "label": "DivisionNeuronal",
+      "file_type": "code",
+      "source_file": "test/test_propiedades.jl",
+      "source_location": "L3",
+      "id": "test_test_propiedades_jl_divisionneuronal",
+      "community": 14,
+      "norm_label": "divisionneuronal"
+    },
+    {
+      "label": "Atomic",
+      "file_type": "code",
+      "source_file": "test/test_propiedades.jl",
+      "source_location": "L716",
+      "id": "test_test_propiedades_jl_atomic",
+      "community": 14,
+      "norm_label": "atomic"
+    },
+    {
+      "label": "test_serializacion.jl",
+      "file_type": "code",
+      "source_file": "test/test_serializacion.jl",
+      "source_location": "L1",
+      "id": "test_test_serializacion",
+      "community": 33,
+      "norm_label": "test_serializacion.jl"
+    },
+    {
+      "label": "DivisionNeuronal",
+      "file_type": "code",
+      "source_file": "test/test_serializacion.jl",
+      "source_location": "L1",
+      "id": "test_test_serializacion_jl_divisionneuronal",
+      "community": 33,
+      "norm_label": "divisionneuronal"
+    },
+    {
+      "label": "Test",
+      "file_type": "code",
+      "source_file": "test/test_serializacion.jl",
+      "source_location": "L2",
+      "id": "test_test_serializacion_jl_test",
+      "community": 33,
+      "norm_label": "test"
+    },
+    {
+      "label": "test_validacion.jl",
+      "file_type": "code",
+      "source_file": "test/test_validacion.jl",
+      "source_location": "L1",
+      "id": "test_test_validacion",
+      "community": 34,
+      "norm_label": "test_validacion.jl"
+    },
+    {
+      "label": "Test",
+      "file_type": "code",
+      "source_file": "test/test_validacion.jl",
+      "source_location": "L1",
+      "id": "test_test_validacion_jl_test",
+      "community": 34,
+      "norm_label": "test"
+    },
+    {
+      "label": "DivisionNeuronal",
+      "file_type": "code",
+      "source_file": "test/test_validacion.jl",
+      "source_location": "L2",
+      "id": "test_test_validacion_jl_divisionneuronal",
+      "community": 34,
+      "norm_label": "divisionneuronal"
+    }
+  ],
+  "links": [
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "source_file": "benchmarks/exp10_seeds_glass.jl",
+      "source_location": "L47",
+      "weight": 1.0,
+      "source": "benchmarks_exp10_seeds_glass",
+      "target": "benchmarks_exp10_seeds_glass_cargar_glass",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "source_file": "benchmarks/exp10_seeds_glass.jl",
+      "source_location": "L15",
+      "weight": 1.0,
+      "source": "benchmarks_exp10_seeds_glass",
+      "target": "benchmarks_exp10_seeds_glass_cargar_seeds",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "source_file": "benchmarks/exp10_seeds_glass.jl",
+      "source_location": "L104",
+      "weight": 1.0,
+      "source": "benchmarks_exp10_seeds_glass",
+      "target": "benchmarks_exp10_seeds_glass_ejecutar_dataset",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "source_file": "benchmarks/exp10_seeds_glass.jl",
+      "source_location": "L195",
+      "weight": 1.0,
+      "source": "benchmarks_exp10_seeds_glass",
+      "target": "benchmarks_exp10_seeds_glass_exp10",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "source_file": "benchmarks/exp10_seeds_glass.jl",
+      "source_location": "L82",
+      "weight": 1.0,
+      "source": "benchmarks_exp10_seeds_glass",
+      "target": "benchmarks_exp10_seeds_glass_split_estratificado",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "benchmarks/exp10_seeds_glass.jl",
+      "source_location": "L203",
+      "weight": 1.0,
+      "context": "call",
+      "source": "benchmarks_exp10_seeds_glass_exp10",
+      "target": "benchmarks_exp10_seeds_glass_cargar_seeds",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "benchmarks/exp10_seeds_glass.jl",
+      "source_location": "L211",
+      "weight": 1.0,
+      "context": "call",
+      "source": "benchmarks_exp10_seeds_glass_exp10",
+      "target": "benchmarks_exp10_seeds_glass_cargar_glass",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "benchmarks/exp10_seeds_glass.jl",
+      "source_location": "L134",
+      "weight": 1.0,
+      "context": "call",
+      "source": "benchmarks_exp10_seeds_glass_ejecutar_dataset",
+      "target": "benchmarks_exp10_seeds_glass_split_estratificado",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "benchmarks/exp10_seeds_glass.jl",
+      "source_location": "L213",
+      "weight": 1.0,
+      "context": "call",
+      "source": "benchmarks_exp10_seeds_glass_exp10",
+      "target": "benchmarks_exp10_seeds_glass_ejecutar_dataset",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "source_file": "benchmarks/exp11_mas_datasets.jl",
+      "source_location": "L15",
+      "weight": 1.0,
+      "source": "benchmarks_exp11_mas_datasets",
+      "target": "benchmarks_exp11_mas_datasets_cargar_csv_generico",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "source_file": "benchmarks/exp11_mas_datasets.jl",
+      "source_location": "L67",
+      "weight": 1.0,
+      "source": "benchmarks_exp11_mas_datasets",
+      "target": "benchmarks_exp11_mas_datasets_ejecutar_con_presupuesto",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "source_file": "benchmarks/exp11_mas_datasets.jl",
+      "source_location": "L155",
+      "weight": 1.0,
+      "source": "benchmarks_exp11_mas_datasets",
+      "target": "benchmarks_exp11_mas_datasets_exp11",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "benchmarks/exp11_mas_datasets.jl",
+      "source_location": "L13",
+      "weight": 1.0,
+      "context": "import",
+      "source": "benchmarks_exp11_mas_datasets",
+      "target": "benchmarks_exp11_mas_datasets_jl_atomic",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "source_file": "benchmarks/exp11_mas_datasets.jl",
+      "source_location": "L47",
+      "weight": 1.0,
+      "source": "benchmarks_exp11_mas_datasets",
+      "target": "benchmarks_exp11_mas_datasets_split_strat",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "benchmarks/exp11_mas_datasets.jl",
+      "source_location": "L189",
+      "weight": 1.0,
+      "context": "call",
+      "source": "benchmarks_exp11_mas_datasets_exp11",
+      "target": "benchmarks_exp11_mas_datasets_cargar_csv_generico",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "benchmarks/exp11_mas_datasets.jl",
+      "source_location": "L92",
+      "weight": 1.0,
+      "context": "call",
+      "source": "benchmarks_exp11_mas_datasets_ejecutar_con_presupuesto",
+      "target": "benchmarks_exp11_mas_datasets_split_strat",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "benchmarks/exp11_mas_datasets.jl",
+      "source_location": "L192",
+      "weight": 1.0,
+      "context": "call",
+      "source": "benchmarks_exp11_mas_datasets_exp11",
+      "target": "benchmarks_exp11_mas_datasets_ejecutar_con_presupuesto",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "source_file": "benchmarks/exp12_ecoli_balance.jl",
+      "source_location": "L51",
+      "weight": 1.0,
+      "source": "benchmarks_exp12_ecoli_balance",
+      "target": "benchmarks_exp12_ecoli_balance_cargar_balance",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "source_file": "benchmarks/exp12_ecoli_balance.jl",
+      "source_location": "L15",
+      "weight": 1.0,
+      "source": "benchmarks_exp12_ecoli_balance",
+      "target": "benchmarks_exp12_ecoli_balance_cargar_ecoli",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "source_file": "benchmarks/exp12_ecoli_balance.jl",
+      "source_location": "L99",
+      "weight": 1.0,
+      "source": "benchmarks_exp12_ecoli_balance",
+      "target": "benchmarks_exp12_ecoli_balance_ejecutar_dataset",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "source_file": "benchmarks/exp12_ecoli_balance.jl",
+      "source_location": "L186",
+      "weight": 1.0,
+      "source": "benchmarks_exp12_ecoli_balance",
+      "target": "benchmarks_exp12_ecoli_balance_exp12",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "source_file": "benchmarks/exp12_ecoli_balance.jl",
+      "source_location": "L79",
+      "weight": 1.0,
+      "source": "benchmarks_exp12_ecoli_balance",
+      "target": "benchmarks_exp12_ecoli_balance_split_strat",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "benchmarks/exp12_ecoli_balance.jl",
+      "source_location": "L194",
+      "weight": 1.0,
+      "context": "call",
+      "source": "benchmarks_exp12_ecoli_balance_exp12",
+      "target": "benchmarks_exp12_ecoli_balance_cargar_ecoli",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "benchmarks/exp12_ecoli_balance.jl",
+      "source_location": "L201",
+      "weight": 1.0,
+      "context": "call",
+      "source": "benchmarks_exp12_ecoli_balance_exp12",
+      "target": "benchmarks_exp12_ecoli_balance_cargar_balance",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "benchmarks/exp12_ecoli_balance.jl",
+      "source_location": "L127",
+      "weight": 1.0,
+      "context": "call",
+      "source": "benchmarks_exp12_ecoli_balance_ejecutar_dataset",
+      "target": "benchmarks_exp12_ecoli_balance_split_strat",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "benchmarks/exp12_ecoli_balance.jl",
+      "source_location": "L203",
+      "weight": 1.0,
+      "context": "call",
+      "source": "benchmarks_exp12_ecoli_balance_exp12",
+      "target": "benchmarks_exp12_ecoli_balance_ejecutar_dataset",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "source_file": "benchmarks/exp13_pima_banknote.jl",
+      "source_location": "L15",
+      "weight": 1.0,
+      "source": "benchmarks_exp13_pima_banknote",
+      "target": "benchmarks_exp13_pima_banknote_cargar_csv_simple",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "source_file": "benchmarks/exp13_pima_banknote.jl",
+      "source_location": "L59",
+      "weight": 1.0,
+      "source": "benchmarks_exp13_pima_banknote",
+      "target": "benchmarks_exp13_pima_banknote_ejecutar_dataset",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "source_file": "benchmarks/exp13_pima_banknote.jl",
+      "source_location": "L145",
+      "weight": 1.0,
+      "source": "benchmarks_exp13_pima_banknote",
+      "target": "benchmarks_exp13_pima_banknote_exp13",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "source_file": "benchmarks/exp13_pima_banknote.jl",
+      "source_location": "L40",
+      "weight": 1.0,
+      "source": "benchmarks_exp13_pima_banknote",
+      "target": "benchmarks_exp13_pima_banknote_split_strat",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "benchmarks/exp13_pima_banknote.jl",
+      "source_location": "L161",
+      "weight": 1.0,
+      "context": "call",
+      "source": "benchmarks_exp13_pima_banknote_exp13",
+      "target": "benchmarks_exp13_pima_banknote_cargar_csv_simple",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "benchmarks/exp13_pima_banknote.jl",
+      "source_location": "L86",
+      "weight": 1.0,
+      "context": "call",
+      "source": "benchmarks_exp13_pima_banknote_ejecutar_dataset",
+      "target": "benchmarks_exp13_pima_banknote_split_strat",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "benchmarks/exp13_pima_banknote.jl",
+      "source_location": "L163",
+      "weight": 1.0,
+      "context": "call",
+      "source": "benchmarks_exp13_pima_banknote_exp13",
+      "target": "benchmarks_exp13_pima_banknote_ejecutar_dataset",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "source_file": "benchmarks/exp14_adult.jl",
+      "source_location": "L17",
+      "weight": 1.0,
+      "source": "benchmarks_exp14_adult",
+      "target": "benchmarks_exp14_adult_cargar_adult",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "source_file": "benchmarks/exp14_adult.jl",
+      "source_location": "L115",
+      "weight": 1.0,
+      "source": "benchmarks_exp14_adult",
+      "target": "benchmarks_exp14_adult_exp14_adult",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "benchmarks/exp14_adult.jl",
+      "source_location": "L208",
+      "weight": 1.0,
+      "context": "call",
+      "source": "benchmarks_exp14_adult_exp14_adult",
+      "target": "benchmarks_exp14_adult_cargar_adult",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "source_file": "benchmarks/exp14b_adult_acotado.jl",
+      "source_location": "L15",
+      "weight": 1.0,
+      "source": "benchmarks_exp14b_adult_acotado",
+      "target": "benchmarks_exp14b_adult_acotado_cargar_adult_11",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "source_file": "benchmarks/exp14b_adult_acotado.jl",
+      "source_location": "L212",
+      "weight": 1.0,
+      "source": "benchmarks_exp14b_adult_acotado",
+      "target": "benchmarks_exp14b_adult_acotado_combinations_iter",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "source_file": "benchmarks/exp14b_adult_acotado.jl",
+      "source_location": "L208",
+      "weight": 1.0,
+      "source": "benchmarks_exp14b_adult_acotado",
+      "target": "benchmarks_exp14b_adult_acotado_combiter",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "source_file": "benchmarks/exp14b_adult_acotado.jl",
+      "source_location": "L90",
+      "weight": 1.0,
+      "source": "benchmarks_exp14b_adult_acotado",
+      "target": "benchmarks_exp14b_adult_acotado_exp14b",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "benchmarks/exp14b_adult_acotado.jl",
+      "source_location": "L13",
+      "weight": 1.0,
+      "context": "import",
+      "source": "benchmarks_exp14b_adult_acotado",
+      "target": "benchmarks_exp14b_adult_acotado_jl_atomic",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "benchmarks/exp14b_adult_acotado.jl",
+      "source_location": "L95",
+      "weight": 1.0,
+      "context": "call",
+      "source": "benchmarks_exp14b_adult_acotado_exp14b",
+      "target": "benchmarks_exp14b_adult_acotado_cargar_adult_11",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "benchmarks/exp14b_adult_acotado.jl",
+      "source_location": "L141",
+      "weight": 1.0,
+      "context": "call",
+      "source": "benchmarks_exp14b_adult_acotado_exp14b",
+      "target": "benchmarks_exp14b_adult_acotado_combinations_iter",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "benchmarks/exp14b_adult_acotado.jl",
+      "source_location": "L212",
+      "weight": 1.0,
+      "context": "call",
+      "source": "benchmarks_exp14b_adult_acotado_combinations_iter",
+      "target": "benchmarks_exp14b_adult_acotado_combiter",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "context": "field",
+      "confidence": "EXTRACTED",
+      "source_file": "benchmarks/exp14b_adult_acotado.jl",
+      "source_location": "L210",
+      "weight": 1.0,
+      "source": "benchmarks_exp14b_adult_acotado_combiter",
+      "target": "benchmarks_exp14b_adult_acotado_jl_int",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "source_file": "benchmarks/exp15_mnist_pca.jl",
+      "source_location": "L32",
+      "weight": 1.0,
+      "source": "benchmarks_exp15_mnist_pca",
+      "target": "benchmarks_exp15_mnist_pca_aplicar_pca",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "source_file": "benchmarks/exp15_mnist_pca.jl",
+      "source_location": "L80",
+      "weight": 1.0,
+      "source": "benchmarks_exp15_mnist_pca",
+      "target": "benchmarks_exp15_mnist_pca_combinations_iter",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "source_file": "benchmarks/exp15_mnist_pca.jl",
+      "source_location": "L79",
+      "weight": 1.0,
+      "source": "benchmarks_exp15_mnist_pca",
+      "target": "benchmarks_exp15_mnist_pca_combiter",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "source_file": "benchmarks/exp15_mnist_pca.jl",
+      "source_location": "L97",
+      "weight": 1.0,
+      "source": "benchmarks_exp15_mnist_pca",
+      "target": "benchmarks_exp15_mnist_pca_ejecutar_mnist_pca",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "source_file": "benchmarks/exp15_mnist_pca.jl",
+      "source_location": "L188",
+      "weight": 1.0,
+      "source": "benchmarks_exp15_mnist_pca",
+      "target": "benchmarks_exp15_mnist_pca_exp15",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "source_file": "benchmarks/exp15_mnist_pca.jl",
+      "source_location": "L63",
+      "weight": 1.0,
+      "source": "benchmarks_exp15_mnist_pca",
+      "target": "benchmarks_exp15_mnist_pca_filtrar_clases",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "benchmarks/exp15_mnist_pca.jl",
+      "source_location": "L16",
+      "weight": 1.0,
+      "context": "import",
+      "source": "benchmarks_exp15_mnist_pca",
+      "target": "benchmarks_exp15_mnist_pca_jl_linearalgebra",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "source_file": "benchmarks/exp15_mnist_pca.jl",
+      "source_location": "L18",
+      "weight": 1.0,
+      "source": "benchmarks_exp15_mnist_pca",
+      "target": "benchmarks_exp15_mnist_pca_leer_imagenes",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "source_file": "benchmarks/exp15_mnist_pca.jl",
+      "source_location": "L27",
+      "weight": 1.0,
+      "source": "benchmarks_exp15_mnist_pca",
+      "target": "benchmarks_exp15_mnist_pca_leer_labels",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "benchmarks/exp15_mnist_pca.jl",
+      "source_location": "L16",
+      "weight": 1.0,
+      "context": "import",
+      "source": "benchmarks_exp15_mnist_pca",
+      "target": "codeczlib",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "benchmarks/exp15_mnist_pca.jl",
+      "source_location": "L197",
+      "weight": 1.0,
+      "context": "call",
+      "source": "benchmarks_exp15_mnist_pca_exp15",
+      "target": "benchmarks_exp15_mnist_pca_leer_imagenes",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "benchmarks/exp15_mnist_pca.jl",
+      "source_location": "L198",
+      "weight": 1.0,
+      "context": "call",
+      "source": "benchmarks_exp15_mnist_pca_exp15",
+      "target": "benchmarks_exp15_mnist_pca_leer_labels",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "benchmarks/exp15_mnist_pca.jl",
+      "source_location": "L227",
+      "weight": 1.0,
+      "context": "call",
+      "source": "benchmarks_exp15_mnist_pca_exp15",
+      "target": "benchmarks_exp15_mnist_pca_aplicar_pca",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "benchmarks/exp15_mnist_pca.jl",
+      "source_location": "L217",
+      "weight": 1.0,
+      "context": "call",
+      "source": "benchmarks_exp15_mnist_pca_exp15",
+      "target": "benchmarks_exp15_mnist_pca_filtrar_clases",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "benchmarks/exp15_mnist_pca.jl",
+      "source_location": "L80",
+      "weight": 1.0,
+      "context": "call",
+      "source": "benchmarks_exp15_mnist_pca_combinations_iter",
+      "target": "benchmarks_exp15_mnist_pca_combiter",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "context": "field",
+      "confidence": "EXTRACTED",
+      "source_file": "benchmarks/exp15_mnist_pca.jl",
+      "source_location": "L79",
+      "weight": 1.0,
+      "source": "benchmarks_exp15_mnist_pca_combiter",
+      "target": "benchmarks_exp15_mnist_pca_jl_int",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "benchmarks/exp15_mnist_pca.jl",
+      "source_location": "L143",
+      "weight": 1.0,
+      "context": "call",
+      "source": "benchmarks_exp15_mnist_pca_ejecutar_mnist_pca",
+      "target": "benchmarks_exp15_mnist_pca_combinations_iter",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "benchmarks/exp15_mnist_pca.jl",
+      "source_location": "L231",
+      "weight": 1.0,
+      "context": "call",
+      "source": "benchmarks_exp15_mnist_pca_exp15",
+      "target": "benchmarks_exp15_mnist_pca_ejecutar_mnist_pca",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "source_file": "benchmarks/exp16_monks.jl",
+      "source_location": "L18",
+      "weight": 1.0,
+      "source": "benchmarks_exp16_monks",
+      "target": "benchmarks_exp16_monks_cargar_monks",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "source_file": "benchmarks/exp16_monks.jl",
+      "source_location": "L48",
+      "weight": 1.0,
+      "source": "benchmarks_exp16_monks",
+      "target": "benchmarks_exp16_monks_ejecutar_monks",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "source_file": "benchmarks/exp16_monks.jl",
+      "source_location": "L124",
+      "weight": 1.0,
+      "source": "benchmarks_exp16_monks",
+      "target": "benchmarks_exp16_monks_exp16",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "benchmarks/exp16_monks.jl",
+      "source_location": "L143",
+      "weight": 1.0,
+      "context": "call",
+      "source": "benchmarks_exp16_monks_exp16",
+      "target": "benchmarks_exp16_monks_cargar_monks",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "benchmarks/exp16_monks.jl",
+      "source_location": "L146",
+      "weight": 1.0,
+      "context": "call",
+      "source": "benchmarks_exp16_monks_exp16",
+      "target": "benchmarks_exp16_monks_ejecutar_monks",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "source_file": "benchmarks/exp17_comparacion_formal.jl",
+      "source_location": "L70",
+      "weight": 1.0,
+      "source": "benchmarks_exp17_comparacion_formal",
+      "target": "benchmarks_exp17_comparacion_formal_cargar_ecoli_datos",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "source_file": "benchmarks/exp17_comparacion_formal.jl",
+      "source_location": "L37",
+      "weight": 1.0,
+      "source": "benchmarks_exp17_comparacion_formal",
+      "target": "benchmarks_exp17_comparacion_formal_cargar_glass_datos",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "source_file": "benchmarks/exp17_comparacion_formal.jl",
+      "source_location": "L55",
+      "weight": 1.0,
+      "source": "benchmarks_exp17_comparacion_formal",
+      "target": "benchmarks_exp17_comparacion_formal_cargar_seeds_datos",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "source_file": "benchmarks/exp17_comparacion_formal.jl",
+      "source_location": "L21",
+      "weight": 1.0,
+      "source": "benchmarks_exp17_comparacion_formal",
+      "target": "benchmarks_exp17_comparacion_formal_cargar_wine_datos",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "source_file": "benchmarks/exp17_comparacion_formal.jl",
+      "source_location": "L142",
+      "weight": 1.0,
+      "source": "benchmarks_exp17_comparacion_formal",
+      "target": "benchmarks_exp17_comparacion_formal_entrenar_con_features",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "source_file": "benchmarks/exp17_comparacion_formal.jl",
+      "source_location": "L193",
+      "weight": 1.0,
+      "source": "benchmarks_exp17_comparacion_formal",
+      "target": "benchmarks_exp17_comparacion_formal_erfc",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "source_file": "benchmarks/exp17_comparacion_formal.jl",
+      "source_location": "L205",
+      "weight": 1.0,
+      "source": "benchmarks_exp17_comparacion_formal",
+      "target": "benchmarks_exp17_comparacion_formal_exp17",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "source_file": "benchmarks/exp17_comparacion_formal.jl",
+      "source_location": "L90",
+      "weight": 1.0,
+      "source": "benchmarks_exp17_comparacion_formal",
+      "target": "benchmarks_exp17_comparacion_formal_normalizar",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "source_file": "benchmarks/exp17_comparacion_formal.jl",
+      "source_location": "L98",
+      "weight": 1.0,
+      "source": "benchmarks_exp17_comparacion_formal",
+      "target": "benchmarks_exp17_comparacion_formal_split_strat",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "source_file": "benchmarks/exp17_comparacion_formal.jl",
+      "source_location": "L119",
+      "weight": 1.0,
+      "source": "benchmarks_exp17_comparacion_formal",
+      "target": "benchmarks_exp17_comparacion_formal_top_k_features_correlacion",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "source_file": "benchmarks/exp17_comparacion_formal.jl",
+      "source_location": "L162",
+      "weight": 1.0,
+      "source": "benchmarks_exp17_comparacion_formal",
+      "target": "benchmarks_exp17_comparacion_formal_wilcoxon_signed_rank",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "benchmarks/exp17_comparacion_formal.jl",
+      "source_location": "L33",
+      "weight": 1.0,
+      "context": "call",
+      "source": "benchmarks_exp17_comparacion_formal_cargar_wine_datos",
+      "target": "benchmarks_exp17_comparacion_formal_normalizar",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "benchmarks/exp17_comparacion_formal.jl",
+      "source_location": "L48",
+      "weight": 1.0,
+      "context": "call",
+      "source": "benchmarks_exp17_comparacion_formal_cargar_glass_datos",
+      "target": "benchmarks_exp17_comparacion_formal_normalizar",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "benchmarks/exp17_comparacion_formal.jl",
+      "source_location": "L66",
+      "weight": 1.0,
+      "context": "call",
+      "source": "benchmarks_exp17_comparacion_formal_cargar_seeds_datos",
+      "target": "benchmarks_exp17_comparacion_formal_normalizar",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "benchmarks/exp17_comparacion_formal.jl",
+      "source_location": "L86",
+      "weight": 1.0,
+      "context": "call",
+      "source": "benchmarks_exp17_comparacion_formal_cargar_ecoli_datos",
+      "target": "benchmarks_exp17_comparacion_formal_normalizar",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "benchmarks/exp17_comparacion_formal.jl",
+      "source_location": "L234",
+      "weight": 1.0,
+      "context": "call",
+      "source": "benchmarks_exp17_comparacion_formal_exp17",
+      "target": "benchmarks_exp17_comparacion_formal_split_strat",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "benchmarks/exp17_comparacion_formal.jl",
+      "source_location": "L257",
+      "weight": 1.0,
+      "context": "call",
+      "source": "benchmarks_exp17_comparacion_formal_exp17",
+      "target": "benchmarks_exp17_comparacion_formal_top_k_features_correlacion",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "benchmarks/exp17_comparacion_formal.jl",
+      "source_location": "L265",
+      "weight": 1.0,
+      "context": "call",
+      "source": "benchmarks_exp17_comparacion_formal_exp17",
+      "target": "benchmarks_exp17_comparacion_formal_entrenar_con_features",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "benchmarks/exp17_comparacion_formal.jl",
+      "source_location": "L290",
+      "weight": 1.0,
+      "context": "call",
+      "source": "benchmarks_exp17_comparacion_formal_exp17",
+      "target": "benchmarks_exp17_comparacion_formal_wilcoxon_signed_rank",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "benchmarks/exp17_comparacion_formal.jl",
+      "source_location": "L184",
+      "weight": 1.0,
+      "context": "call",
+      "source": "benchmarks_exp17_comparacion_formal_wilcoxon_signed_rank",
+      "target": "benchmarks_exp17_comparacion_formal_erfc",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "source_file": "benchmarks/exp18_embeddings.jl",
+      "source_location": "L31",
+      "weight": 1.0,
+      "source": "benchmarks_exp18_embeddings",
+      "target": "benchmarks_exp18_embeddings_cargar_adult_para_embeddings",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "source_file": "benchmarks/exp18_embeddings.jl",
+      "source_location": "L20",
+      "weight": 1.0,
+      "source": "benchmarks_exp18_embeddings",
+      "target": "benchmarks_exp18_embeddings_combinations_iter",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "source_file": "benchmarks/exp18_embeddings.jl",
+      "source_location": "L19",
+      "weight": 1.0,
+      "source": "benchmarks_exp18_embeddings",
+      "target": "benchmarks_exp18_embeddings_combiter",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "source_file": "benchmarks/exp18_embeddings.jl",
+      "source_location": "L109",
+      "weight": 1.0,
+      "source": "benchmarks_exp18_embeddings",
+      "target": "benchmarks_exp18_embeddings_exp18",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "benchmarks/exp18_embeddings.jl",
+      "source_location": "L20",
+      "weight": 1.0,
+      "context": "call",
+      "source": "benchmarks_exp18_embeddings_combinations_iter",
+      "target": "benchmarks_exp18_embeddings_combiter",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "context": "field",
+      "confidence": "EXTRACTED",
+      "source_file": "benchmarks/exp18_embeddings.jl",
+      "source_location": "L19",
+      "weight": 1.0,
+      "source": "benchmarks_exp18_embeddings_combiter",
+      "target": "benchmarks_exp18_embeddings_jl_int",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "benchmarks/exp18_embeddings.jl",
+      "source_location": "L186",
+      "weight": 1.0,
+      "context": "call",
+      "source": "benchmarks_exp18_embeddings_exp18",
+      "target": "benchmarks_exp18_embeddings_combinations_iter",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "benchmarks/exp18_embeddings.jl",
+      "source_location": "L114",
+      "weight": 1.0,
+      "context": "call",
+      "source": "benchmarks_exp18_embeddings_exp18",
+      "target": "benchmarks_exp18_embeddings_cargar_adult_para_embeddings",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "source_file": "benchmarks/exp1_umbral.jl",
+      "source_location": "L13",
+      "weight": 1.0,
+      "source": "benchmarks_exp1_umbral",
+      "target": "benchmarks_exp1_umbral_exp1_umbral",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "source_file": "benchmarks/exp2_escalado.jl",
+      "source_location": "L13",
+      "weight": 1.0,
+      "source": "benchmarks_exp2_escalado",
+      "target": "benchmarks_exp2_escalado_exp2_escalado",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "source_file": "benchmarks/exp3_multisalida.jl",
+      "source_location": "L30",
+      "weight": 1.0,
+      "source": "benchmarks_exp3_multisalida",
+      "target": "benchmarks_exp3_multisalida_exp3_multisalida",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "source_file": "benchmarks/exp3_multisalida.jl",
+      "source_location": "L18",
+      "weight": 1.0,
+      "source": "benchmarks_exp3_multisalida",
+      "target": "benchmarks_exp3_multisalida_problema_4salidas",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "benchmarks/exp3_multisalida.jl",
+      "source_location": "L35",
+      "weight": 1.0,
+      "context": "call",
+      "source": "benchmarks_exp3_multisalida_exp3_multisalida",
+      "target": "benchmarks_exp3_multisalida_problema_4salidas",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "source_file": "benchmarks/exp4_comparacion.jl",
+      "source_location": "L16",
+      "weight": 1.0,
+      "source": "benchmarks_exp4_comparacion",
+      "target": "benchmarks_exp4_comparacion_entrenar_red_completa",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "source_file": "benchmarks/exp4_comparacion.jl",
+      "source_location": "L34",
+      "weight": 1.0,
+      "source": "benchmarks_exp4_comparacion",
+      "target": "benchmarks_exp4_comparacion_exp4_comparacion",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "benchmarks/exp4_comparacion.jl",
+      "source_location": "L62",
+      "weight": 1.0,
+      "context": "call",
+      "source": "benchmarks_exp4_comparacion_exp4_comparacion",
+      "target": "benchmarks_exp4_comparacion_entrenar_red_completa",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "source_file": "benchmarks/exp5_estadisticas.jl",
+      "source_location": "L13",
+      "weight": 1.0,
+      "source": "benchmarks_exp5_estadisticas",
+      "target": "benchmarks_exp5_estadisticas_distribucion_neuronas",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "source_file": "benchmarks/exp5_estadisticas.jl",
+      "source_location": "L23",
+      "weight": 1.0,
+      "source": "benchmarks_exp5_estadisticas",
+      "target": "benchmarks_exp5_estadisticas_exp5_estadisticas",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "benchmarks/exp5_estadisticas.jl",
+      "source_location": "L67",
+      "weight": 1.0,
+      "context": "call",
+      "source": "benchmarks_exp5_estadisticas_exp5_estadisticas",
+      "target": "benchmarks_exp5_estadisticas_distribucion_neuronas",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "source_file": "benchmarks/exp6_iris.jl",
+      "source_location": "L18",
+      "weight": 1.0,
+      "source": "benchmarks_exp6_iris",
+      "target": "benchmarks_exp6_iris_cargar_iris",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "source_file": "benchmarks/exp6_iris.jl",
+      "source_location": "L114",
+      "weight": 1.0,
+      "source": "benchmarks_exp6_iris",
+      "target": "benchmarks_exp6_iris_exp6_iris",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "source_file": "benchmarks/exp6_iris.jl",
+      "source_location": "L85",
+      "weight": 1.0,
+      "source": "benchmarks_exp6_iris",
+      "target": "benchmarks_exp6_iris_split_datos",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "benchmarks/exp6_iris.jl",
+      "source_location": "L120",
+      "weight": 1.0,
+      "context": "call",
+      "source": "benchmarks_exp6_iris_exp6_iris",
+      "target": "benchmarks_exp6_iris_cargar_iris",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "benchmarks/exp6_iris.jl",
+      "source_location": "L200",
+      "weight": 1.0,
+      "context": "call",
+      "source": "benchmarks_exp6_iris_exp6_iris",
+      "target": "benchmarks_exp6_iris_split_datos",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "source_file": "benchmarks/exp7_wine.jl",
+      "source_location": "L14",
+      "weight": 1.0,
+      "source": "benchmarks_exp7_wine",
+      "target": "benchmarks_exp7_wine_cargar_wine",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "source_file": "benchmarks/exp7_wine.jl",
+      "source_location": "L73",
+      "weight": 1.0,
+      "source": "benchmarks_exp7_wine",
+      "target": "benchmarks_exp7_wine_exp7_wine",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "source_file": "benchmarks/exp7_wine.jl",
+      "source_location": "L53",
+      "weight": 1.0,
+      "source": "benchmarks_exp7_wine",
+      "target": "benchmarks_exp7_wine_split_datos",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "benchmarks/exp7_wine.jl",
+      "source_location": "L79",
+      "weight": 1.0,
+      "context": "call",
+      "source": "benchmarks_exp7_wine_exp7_wine",
+      "target": "benchmarks_exp7_wine_cargar_wine",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "benchmarks/exp7_wine.jl",
+      "source_location": "L166",
+      "weight": 1.0,
+      "context": "call",
+      "source": "benchmarks_exp7_wine_exp7_wine",
+      "target": "benchmarks_exp7_wine_split_datos",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "source_file": "benchmarks/exp8_cancer.jl",
+      "source_location": "L15",
+      "weight": 1.0,
+      "source": "benchmarks_exp8_cancer",
+      "target": "benchmarks_exp8_cancer_cargar_cancer",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "source_file": "benchmarks/exp8_cancer.jl",
+      "source_location": "L73",
+      "weight": 1.0,
+      "source": "benchmarks_exp8_cancer",
+      "target": "benchmarks_exp8_cancer_exp8_cancer",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "benchmarks/exp8_cancer.jl",
+      "source_location": "L13",
+      "weight": 1.0,
+      "context": "import",
+      "source": "benchmarks_exp8_cancer",
+      "target": "benchmarks_exp8_cancer_jl_atomic",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "source_file": "benchmarks/exp8_cancer.jl",
+      "source_location": "L55",
+      "weight": 1.0,
+      "source": "benchmarks_exp8_cancer",
+      "target": "benchmarks_exp8_cancer_split_cancer",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "benchmarks/exp8_cancer.jl",
+      "source_location": "L172",
+      "weight": 1.0,
+      "context": "call",
+      "source": "benchmarks_exp8_cancer_exp8_cancer",
+      "target": "benchmarks_exp8_cancer_cargar_cancer",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "benchmarks/exp8_cancer.jl",
+      "source_location": "L196",
+      "weight": 1.0,
+      "context": "call",
+      "source": "benchmarks_exp8_cancer_exp8_cancer",
+      "target": "benchmarks_exp8_cancer_split_cancer",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "source_file": "benchmarks/exp9_sinteticos2d.jl",
+      "source_location": "L126",
+      "weight": 1.0,
+      "source": "benchmarks_exp9_sinteticos2d",
+      "target": "benchmarks_exp9_sinteticos2d_ejecutar_sintetico",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "source_file": "benchmarks/exp9_sinteticos2d.jl",
+      "source_location": "L178",
+      "weight": 1.0,
+      "source": "benchmarks_exp9_sinteticos2d",
+      "target": "benchmarks_exp9_sinteticos2d_exp9_sinteticos",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "source_file": "benchmarks/exp9_sinteticos2d.jl",
+      "source_location": "L81",
+      "weight": 1.0,
+      "source": "benchmarks_exp9_sinteticos2d",
+      "target": "benchmarks_exp9_sinteticos2d_generar_4clusters",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "source_file": "benchmarks/exp9_sinteticos2d.jl",
+      "source_location": "L41",
+      "weight": 1.0,
+      "source": "benchmarks_exp9_sinteticos2d",
+      "target": "benchmarks_exp9_sinteticos2d_generar_circulos",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "source_file": "benchmarks/exp9_sinteticos2d.jl",
+      "source_location": "L61",
+      "weight": 1.0,
+      "source": "benchmarks_exp9_sinteticos2d",
+      "target": "benchmarks_exp9_sinteticos2d_generar_espirales",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "source_file": "benchmarks/exp9_sinteticos2d.jl",
+      "source_location": "L23",
+      "weight": 1.0,
+      "source": "benchmarks_exp9_sinteticos2d",
+      "target": "benchmarks_exp9_sinteticos2d_generar_lunas",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "source_file": "benchmarks/exp9_sinteticos2d.jl",
+      "source_location": "L101",
+      "weight": 1.0,
+      "source": "benchmarks_exp9_sinteticos2d",
+      "target": "benchmarks_exp9_sinteticos2d_normalizar_entradas",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "source_file": "benchmarks/exp9_sinteticos2d.jl",
+      "source_location": "L111",
+      "weight": 1.0,
+      "source": "benchmarks_exp9_sinteticos2d",
+      "target": "benchmarks_exp9_sinteticos2d_split_sintetico",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "benchmarks/exp9_sinteticos2d.jl",
+      "source_location": "L187",
+      "weight": 1.0,
+      "context": "call",
+      "source": "benchmarks_exp9_sinteticos2d_exp9_sinteticos",
+      "target": "benchmarks_exp9_sinteticos2d_generar_lunas",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "benchmarks/exp9_sinteticos2d.jl",
+      "source_location": "L38",
+      "weight": 1.0,
+      "context": "call",
+      "source": "benchmarks_exp9_sinteticos2d_generar_lunas",
+      "target": "benchmarks_exp9_sinteticos2d_normalizar_entradas",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "benchmarks/exp9_sinteticos2d.jl",
+      "source_location": "L193",
+      "weight": 1.0,
+      "context": "call",
+      "source": "benchmarks_exp9_sinteticos2d_exp9_sinteticos",
+      "target": "benchmarks_exp9_sinteticos2d_generar_circulos",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "benchmarks/exp9_sinteticos2d.jl",
+      "source_location": "L58",
+      "weight": 1.0,
+      "context": "call",
+      "source": "benchmarks_exp9_sinteticos2d_generar_circulos",
+      "target": "benchmarks_exp9_sinteticos2d_normalizar_entradas",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "benchmarks/exp9_sinteticos2d.jl",
+      "source_location": "L199",
+      "weight": 1.0,
+      "context": "call",
+      "source": "benchmarks_exp9_sinteticos2d_exp9_sinteticos",
+      "target": "benchmarks_exp9_sinteticos2d_generar_espirales",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "benchmarks/exp9_sinteticos2d.jl",
+      "source_location": "L78",
+      "weight": 1.0,
+      "context": "call",
+      "source": "benchmarks_exp9_sinteticos2d_generar_espirales",
+      "target": "benchmarks_exp9_sinteticos2d_normalizar_entradas",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "benchmarks/exp9_sinteticos2d.jl",
+      "source_location": "L205",
+      "weight": 1.0,
+      "context": "call",
+      "source": "benchmarks_exp9_sinteticos2d_exp9_sinteticos",
+      "target": "benchmarks_exp9_sinteticos2d_generar_4clusters",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "benchmarks/exp9_sinteticos2d.jl",
+      "source_location": "L98",
+      "weight": 1.0,
+      "context": "call",
+      "source": "benchmarks_exp9_sinteticos2d_generar_4clusters",
+      "target": "benchmarks_exp9_sinteticos2d_normalizar_entradas",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "benchmarks/exp9_sinteticos2d.jl",
+      "source_location": "L146",
+      "weight": 1.0,
+      "context": "call",
+      "source": "benchmarks_exp9_sinteticos2d_ejecutar_sintetico",
+      "target": "benchmarks_exp9_sinteticos2d_split_sintetico",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "benchmarks/exp9_sinteticos2d.jl",
+      "source_location": "L207",
+      "weight": 1.0,
+      "context": "call",
+      "source": "benchmarks_exp9_sinteticos2d_exp9_sinteticos",
+      "target": "benchmarks_exp9_sinteticos2d_ejecutar_sintetico",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "source_file": "benchmarks/run_benchmarks.jl",
+      "source_location": "L24",
+      "weight": 1.0,
+      "source": "benchmarks_run_benchmarks",
+      "target": "benchmarks_run_benchmarks_crear_red",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "source_file": "benchmarks/run_benchmarks.jl",
+      "source_location": "L189",
+      "weight": 1.0,
+      "source": "benchmarks_run_benchmarks",
+      "target": "benchmarks_run_benchmarks_ejecutar_benchmark",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "source_file": "benchmarks/run_benchmarks.jl",
+      "source_location": "L54",
+      "weight": 1.0,
+      "source": "benchmarks_run_benchmarks",
+      "target": "benchmarks_run_benchmarks_imprimir_resultado",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "benchmarks/run_benchmarks.jl",
+      "source_location": "L11",
+      "weight": 1.0,
+      "context": "import",
+      "source": "benchmarks_run_benchmarks",
+      "target": "benchmarks_run_benchmarks_jl_divisionneuronal",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "benchmarks/run_benchmarks.jl",
+      "source_location": "L13",
+      "weight": 1.0,
+      "context": "import",
+      "source": "benchmarks_run_benchmarks",
+      "target": "benchmarks_run_benchmarks_jl_printf",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "benchmarks/run_benchmarks.jl",
+      "source_location": "L12",
+      "weight": 1.0,
+      "context": "import",
+      "source": "benchmarks_run_benchmarks",
+      "target": "benchmarks_run_benchmarks_jl_random",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "benchmarks/run_benchmarks.jl",
+      "source_location": "L14",
+      "weight": 1.0,
+      "context": "import",
+      "source": "benchmarks_run_benchmarks",
+      "target": "benchmarks_run_benchmarks_jl_statistics",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "source_file": "benchmarks/run_benchmarks.jl",
+      "source_location": "L267",
+      "weight": 1.0,
+      "source": "benchmarks_run_benchmarks",
+      "target": "benchmarks_run_benchmarks_main",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "source_file": "benchmarks/run_benchmarks.jl",
+      "source_location": "L114",
+      "weight": 1.0,
+      "source": "benchmarks_run_benchmarks",
+      "target": "benchmarks_run_benchmarks_problema_and",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "source_file": "benchmarks/run_benchmarks.jl",
+      "source_location": "L169",
+      "weight": 1.0,
+      "source": "benchmarks_run_benchmarks",
+      "target": "benchmarks_run_benchmarks_problema_encoder_4a2",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "source_file": "benchmarks/run_benchmarks.jl",
+      "source_location": "L142",
+      "weight": 1.0,
+      "source": "benchmarks_run_benchmarks",
+      "target": "benchmarks_run_benchmarks_problema_multi_logica",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "source_file": "benchmarks/run_benchmarks.jl",
+      "source_location": "L132",
+      "weight": 1.0,
+      "source": "benchmarks_run_benchmarks",
+      "target": "benchmarks_run_benchmarks_problema_nand",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "source_file": "benchmarks/run_benchmarks.jl",
+      "source_location": "L123",
+      "weight": 1.0,
+      "source": "benchmarks_run_benchmarks",
+      "target": "benchmarks_run_benchmarks_problema_or",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "source_file": "benchmarks/run_benchmarks.jl",
+      "source_location": "L159",
+      "weight": 1.0,
+      "source": "benchmarks_run_benchmarks",
+      "target": "benchmarks_run_benchmarks_problema_paridad_3bits",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "source_file": "benchmarks/run_benchmarks.jl",
+      "source_location": "L105",
+      "weight": 1.0,
+      "source": "benchmarks_run_benchmarks",
+      "target": "benchmarks_run_benchmarks_problema_xor",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "source_file": "benchmarks/run_benchmarks.jl",
+      "source_location": "L40",
+      "weight": 1.0,
+      "source": "benchmarks_run_benchmarks",
+      "target": "benchmarks_run_benchmarks_tabla_verdad",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "benchmarks/run_benchmarks.jl",
+      "source_location": "L199",
+      "weight": 1.0,
+      "context": "call",
+      "source": "benchmarks_run_benchmarks_ejecutar_benchmark",
+      "target": "benchmarks_run_benchmarks_crear_red",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "benchmarks/run_benchmarks.jl",
+      "source_location": "L115",
+      "weight": 1.0,
+      "context": "call",
+      "source": "benchmarks_run_benchmarks_problema_and",
+      "target": "benchmarks_run_benchmarks_tabla_verdad",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "benchmarks/run_benchmarks.jl",
+      "source_location": "L143",
+      "weight": 1.0,
+      "context": "call",
+      "source": "benchmarks_run_benchmarks_problema_multi_logica",
+      "target": "benchmarks_run_benchmarks_tabla_verdad",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "benchmarks/run_benchmarks.jl",
+      "source_location": "L133",
+      "weight": 1.0,
+      "context": "call",
+      "source": "benchmarks_run_benchmarks_problema_nand",
+      "target": "benchmarks_run_benchmarks_tabla_verdad",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "benchmarks/run_benchmarks.jl",
+      "source_location": "L124",
+      "weight": 1.0,
+      "context": "call",
+      "source": "benchmarks_run_benchmarks_problema_or",
+      "target": "benchmarks_run_benchmarks_tabla_verdad",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "benchmarks/run_benchmarks.jl",
+      "source_location": "L160",
+      "weight": 1.0,
+      "context": "call",
+      "source": "benchmarks_run_benchmarks_problema_paridad_3bits",
+      "target": "benchmarks_run_benchmarks_tabla_verdad",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "benchmarks/run_benchmarks.jl",
+      "source_location": "L106",
+      "weight": 1.0,
+      "context": "call",
+      "source": "benchmarks_run_benchmarks_problema_xor",
+      "target": "benchmarks_run_benchmarks_tabla_verdad",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "benchmarks/run_benchmarks.jl",
+      "source_location": "L237",
+      "weight": 1.0,
+      "context": "call",
+      "source": "benchmarks_run_benchmarks_ejecutar_benchmark",
+      "target": "benchmarks_run_benchmarks_imprimir_resultado",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "benchmarks/run_benchmarks.jl",
+      "source_location": "L281",
+      "weight": 1.0,
+      "context": "call",
+      "source": "benchmarks_run_benchmarks_main",
+      "target": "benchmarks_run_benchmarks_problema_xor",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "benchmarks/run_benchmarks.jl",
+      "source_location": "L282",
+      "weight": 1.0,
+      "context": "call",
+      "source": "benchmarks_run_benchmarks_main",
+      "target": "benchmarks_run_benchmarks_problema_and",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "benchmarks/run_benchmarks.jl",
+      "source_location": "L283",
+      "weight": 1.0,
+      "context": "call",
+      "source": "benchmarks_run_benchmarks_main",
+      "target": "benchmarks_run_benchmarks_problema_or",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "benchmarks/run_benchmarks.jl",
+      "source_location": "L284",
+      "weight": 1.0,
+      "context": "call",
+      "source": "benchmarks_run_benchmarks_main",
+      "target": "benchmarks_run_benchmarks_problema_nand",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "benchmarks/run_benchmarks.jl",
+      "source_location": "L294",
+      "weight": 1.0,
+      "context": "call",
+      "source": "benchmarks_run_benchmarks_main",
+      "target": "benchmarks_run_benchmarks_problema_multi_logica",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "benchmarks/run_benchmarks.jl",
+      "source_location": "L304",
+      "weight": 1.0,
+      "context": "call",
+      "source": "benchmarks_run_benchmarks_main",
+      "target": "benchmarks_run_benchmarks_problema_paridad_3bits",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "benchmarks/run_benchmarks.jl",
+      "source_location": "L314",
+      "weight": 1.0,
+      "context": "call",
+      "source": "benchmarks_run_benchmarks_main",
+      "target": "benchmarks_run_benchmarks_problema_encoder_4a2",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "benchmarks/run_benchmarks.jl",
+      "source_location": "L314",
+      "weight": 1.0,
+      "context": "call",
+      "source": "benchmarks_run_benchmarks_main",
+      "target": "benchmarks_run_benchmarks_ejecutar_benchmark",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "source_file": "benchmarks/utils.jl",
+      "source_location": "L13",
+      "weight": 1.0,
+      "source": "benchmarks_utils",
+      "target": "benchmarks_utils_crear_red",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "source_file": "benchmarks/utils.jl",
+      "source_location": "L94",
+      "weight": 1.0,
+      "source": "benchmarks_utils",
+      "target": "benchmarks_utils_ejecutar_una",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "benchmarks/utils.jl",
+      "source_location": "L5",
+      "weight": 1.0,
+      "context": "import",
+      "source": "benchmarks_utils",
+      "target": "benchmarks_utils_jl_divisionneuronal",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "benchmarks/utils.jl",
+      "source_location": "L7",
+      "weight": 1.0,
+      "context": "import",
+      "source": "benchmarks_utils",
+      "target": "benchmarks_utils_jl_printf",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "benchmarks/utils.jl",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import",
+      "source": "benchmarks_utils",
+      "target": "benchmarks_utils_jl_random",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "benchmarks/utils.jl",
+      "source_location": "L8",
+      "weight": 1.0,
+      "context": "import",
+      "source": "benchmarks_utils",
+      "target": "benchmarks_utils_jl_statistics",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "source_file": "benchmarks/utils.jl",
+      "source_location": "L54",
+      "weight": 1.0,
+      "source": "benchmarks_utils",
+      "target": "benchmarks_utils_problema_and",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "source_file": "benchmarks/utils.jl",
+      "source_location": "L84",
+      "weight": 1.0,
+      "source": "benchmarks_utils",
+      "target": "benchmarks_utils_problema_encoder_4a2",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "source_file": "benchmarks/utils.jl",
+      "source_location": "L72",
+      "weight": 1.0,
+      "source": "benchmarks_utils",
+      "target": "benchmarks_utils_problema_multi_logica",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "source_file": "benchmarks/utils.jl",
+      "source_location": "L66",
+      "weight": 1.0,
+      "source": "benchmarks_utils",
+      "target": "benchmarks_utils_problema_nand",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "source_file": "benchmarks/utils.jl",
+      "source_location": "L60",
+      "weight": 1.0,
+      "source": "benchmarks_utils",
+      "target": "benchmarks_utils_problema_or",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "source_file": "benchmarks/utils.jl",
+      "source_location": "L78",
+      "weight": 1.0,
+      "source": "benchmarks_utils",
+      "target": "benchmarks_utils_problema_paridad_3bits",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "source_file": "benchmarks/utils.jl",
+      "source_location": "L48",
+      "weight": 1.0,
+      "source": "benchmarks_utils",
+      "target": "benchmarks_utils_problema_xor",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "source_file": "benchmarks/utils.jl",
+      "source_location": "L29",
+      "weight": 1.0,
+      "source": "benchmarks_utils",
+      "target": "benchmarks_utils_tabla_verdad",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "benchmarks/utils.jl",
+      "source_location": "L95",
+      "weight": 1.0,
+      "context": "call",
+      "source": "benchmarks_utils_ejecutar_una",
+      "target": "benchmarks_utils_crear_red",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "benchmarks/utils.jl",
+      "source_location": "L55",
+      "weight": 1.0,
+      "context": "call",
+      "source": "benchmarks_utils_problema_and",
+      "target": "benchmarks_utils_tabla_verdad",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "benchmarks/utils.jl",
+      "source_location": "L73",
+      "weight": 1.0,
+      "context": "call",
+      "source": "benchmarks_utils_problema_multi_logica",
+      "target": "benchmarks_utils_tabla_verdad",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "benchmarks/utils.jl",
+      "source_location": "L67",
+      "weight": 1.0,
+      "context": "call",
+      "source": "benchmarks_utils_problema_nand",
+      "target": "benchmarks_utils_tabla_verdad",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "benchmarks/utils.jl",
+      "source_location": "L61",
+      "weight": 1.0,
+      "context": "call",
+      "source": "benchmarks_utils_problema_or",
+      "target": "benchmarks_utils_tabla_verdad",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "benchmarks/utils.jl",
+      "source_location": "L79",
+      "weight": 1.0,
+      "context": "call",
+      "source": "benchmarks_utils_problema_paridad_3bits",
+      "target": "benchmarks_utils_tabla_verdad",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "benchmarks/utils.jl",
+      "source_location": "L49",
+      "weight": 1.0,
+      "context": "call",
+      "source": "benchmarks_utils_problema_xor",
+      "target": "benchmarks_utils_tabla_verdad",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "source_file": "src/DivisionNeuronal.jl",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "src_divisionneuronal",
+      "target": "src_divisionneuronal_divisionneuronal",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "src/embeddings.jl",
+      "source_location": "L10",
+      "weight": 1.0,
+      "context": "import",
+      "source": "src_embeddings",
+      "target": "src_embeddings_jl_linearalgebra",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "src/entrenamiento.jl",
+      "source_location": "L8",
+      "weight": 1.0,
+      "context": "import",
+      "source": "src_entrenamiento",
+      "target": "src_entrenamiento_jl_random",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "src/entrenamiento.jl",
+      "source_location": "L9",
+      "weight": 1.0,
+      "context": "import",
+      "source": "src_entrenamiento",
+      "target": "src_entrenamiento_jl_statistics",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "source_file": "src/errores.jl",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "src_errores",
+      "target": "src_errores_neuronasinvalidaserror",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "source_file": "src/errores.jl",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "src_errores",
+      "target": "src_errores_redbasenoinicializadaerror",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "source_file": "src/errores.jl",
+      "source_location": "L11",
+      "weight": 1.0,
+      "source": "src_errores",
+      "target": "src_errores_umbralfueraderangoerror",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "src/errores.jl",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "src_errores_redbasenoinicializadaerror",
+      "target": "exception",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "context": "field",
+      "confidence": "EXTRACTED",
+      "source_file": "src/errores.jl",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "src_errores_redbasenoinicializadaerror",
+      "target": "string",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "src/errores.jl",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "src_errores_neuronasinvalidaserror",
+      "target": "exception",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "src/errores.jl",
+      "source_location": "L11",
+      "weight": 1.0,
+      "source": "src_errores_umbralfueraderangoerror",
+      "target": "exception",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "context": "field",
+      "confidence": "EXTRACTED",
+      "source_file": "src/errores.jl",
+      "source_location": "L8",
+      "weight": 1.0,
+      "source": "src_errores_neuronasinvalidaserror",
+      "target": "string",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "context": "field",
+      "confidence": "EXTRACTED",
+      "source_file": "src/errores.jl",
+      "source_location": "L12",
+      "weight": 1.0,
+      "source": "src_errores_umbralfueraderangoerror",
+      "target": "string",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "source_file": "src/evaluador.jl",
+      "source_location": "L13",
+      "weight": 1.0,
+      "source": "src_evaluador",
+      "target": "src_evaluador_sigmoid",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "source_file": "src/evaluador.jl",
+      "source_location": "L39",
+      "weight": 1.0,
+      "source": "src_evaluador",
+      "target": "src_evaluador_subconjuntos_no_vacios",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "source_file": "src/generador.jl",
+      "source_location": "L27",
+      "weight": 1.0,
+      "source": "src_generador",
+      "target": "src_generador_bitmask_a_indices",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "source_file": "src/gpu_backend.jl",
+      "source_location": "L157",
+      "weight": 1.0,
+      "source": "src_gpu_backend",
+      "target": "src_gpu_backend_a_cpu",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "source_file": "src/gpu_backend.jl",
+      "source_location": "L137",
+      "weight": 1.0,
+      "source": "src_gpu_backend",
+      "target": "src_gpu_backend_a_dispositivo",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "source_file": "src/gpu_backend.jl",
+      "source_location": "L34",
+      "weight": 1.0,
+      "source": "src_gpu_backend",
+      "target": "src_gpu_backend_backend_actual",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "source_file": "src/gpu_backend.jl",
+      "source_location": "L84",
+      "weight": 1.0,
+      "source": "src_gpu_backend",
+      "target": "src_gpu_backend_cuda_disponible",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "source_file": "src/gpu_backend.jl",
+      "source_location": "L191",
+      "weight": 1.0,
+      "source": "src_gpu_backend",
+      "target": "src_gpu_backend_info_dispositivo",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "source_file": "src/gpu_backend.jl",
+      "source_location": "L59",
+      "weight": 1.0,
+      "source": "src_gpu_backend",
+      "target": "src_gpu_backend_inicializar_gpu",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "source_file": "src/gpu_backend.jl",
+      "source_location": "L93",
+      "weight": 1.0,
+      "source": "src_gpu_backend",
+      "target": "src_gpu_backend_rocm_disponible",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "source_file": "src/gpu_backend.jl",
+      "source_location": "L41",
+      "weight": 1.0,
+      "source": "src_gpu_backend",
+      "target": "src_gpu_backend_seleccionar_backend",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "source_file": "src/gpu_backend.jl",
+      "source_location": "L102",
+      "weight": 1.0,
+      "source": "src_gpu_backend",
+      "target": "src_gpu_backend_verificar_cuda",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "source_file": "src/gpu_backend.jl",
+      "source_location": "L106",
+      "weight": 1.0,
+      "source": "src_gpu_backend",
+      "target": "src_gpu_backend_verificar_rocm",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "src/gpu_backend.jl",
+      "source_location": "L44",
+      "weight": 1.0,
+      "context": "call",
+      "source": "src_gpu_backend_seleccionar_backend",
+      "target": "src_gpu_backend_verificar_cuda",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "src/gpu_backend.jl",
+      "source_location": "L46",
+      "weight": 1.0,
+      "context": "call",
+      "source": "src_gpu_backend_seleccionar_backend",
+      "target": "src_gpu_backend_verificar_rocm",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "src/gpu_backend.jl",
+      "source_location": "L61",
+      "weight": 1.0,
+      "context": "call",
+      "source": "src_gpu_backend_inicializar_gpu",
+      "target": "src_gpu_backend_cuda_disponible",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "src/gpu_backend.jl",
+      "source_location": "L68",
+      "weight": 1.0,
+      "context": "call",
+      "source": "src_gpu_backend_inicializar_gpu",
+      "target": "src_gpu_backend_rocm_disponible",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "src/gpu_backend.jl",
+      "source_location": "L103",
+      "weight": 1.0,
+      "context": "call",
+      "source": "src_gpu_backend_verificar_cuda",
+      "target": "src_gpu_backend_cuda_disponible",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "src/gpu_backend.jl",
+      "source_location": "L107",
+      "weight": 1.0,
+      "context": "call",
+      "source": "src_gpu_backend_verificar_rocm",
+      "target": "src_gpu_backend_rocm_disponible",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "src/gpu_backend.jl",
+      "source_location": "L138",
+      "weight": 1.0,
+      "context": "call",
+      "source": "src_gpu_backend_a_dispositivo",
+      "target": "src_gpu_backend_a_dispositivo",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "src/gpu_backend.jl",
+      "source_location": "L158",
+      "weight": 1.0,
+      "context": "call",
+      "source": "src_gpu_backend_a_cpu",
+      "target": "src_gpu_backend_a_cpu",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "src/motor.jl",
+      "source_location": "L9",
+      "weight": 1.0,
+      "context": "import",
+      "source": "src_motor",
+      "target": "src_motor_jl_atomic",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "src/progreso.jl",
+      "source_location": "L8",
+      "weight": 1.0,
+      "context": "import",
+      "source": "src_progreso",
+      "target": "src_progreso_jl_atomic",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "src/serializacion.jl",
+      "source_location": "L8",
+      "weight": 1.0,
+      "context": "import",
+      "source": "src_serializacion",
+      "target": "jld2",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "source_file": "src/tipos.jl",
+      "source_location": "L86",
+      "weight": 1.0,
+      "source": "src_tipos",
+      "target": "src_tipos_progresoexploracion",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "context": "field",
+      "confidence": "EXTRACTED",
+      "source_file": "src/tipos.jl",
+      "source_location": "L90",
+      "weight": 1.0,
+      "source": "src_tipos_progresoexploracion",
+      "target": "src_tipos_jl_int",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "source_file": "src/validacion.jl",
+      "source_location": "L64",
+      "weight": 1.0,
+      "source": "src_validacion",
+      "target": "src_validacion_validar_neuronas",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "source_file": "src/validacion.jl",
+      "source_location": "L22",
+      "weight": 1.0,
+      "source": "src_validacion",
+      "target": "src_validacion_validar_red_base",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "source_file": "src/validacion.jl",
+      "source_location": "L92",
+      "weight": 1.0,
+      "source": "src_validacion",
+      "target": "src_validacion_validar_umbral",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "source_file": "test/generadores.jl",
+      "source_location": "L78",
+      "weight": 1.0,
+      "source": "test_generadores",
+      "target": "test_generadores_gen_mapa_soluciones",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "test/generadores.jl",
+      "source_location": "L9",
+      "weight": 1.0,
+      "context": "import",
+      "source": "test_generadores",
+      "target": "test_generadores_jl_divisionneuronal",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "test/generadores.jl",
+      "source_location": "L8",
+      "weight": 1.0,
+      "context": "import",
+      "source": "test_generadores",
+      "target": "test_generadores_jl_propcheck",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "test/runtests.jl",
+      "source_location": "L1",
+      "weight": 1.0,
+      "context": "import",
+      "source": "test_runtests",
+      "target": "test_runtests_jl_test",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "test/test_entrenamiento.jl",
+      "source_location": "L2",
+      "weight": 1.0,
+      "context": "import",
+      "source": "test_test_entrenamiento",
+      "target": "test_test_entrenamiento_jl_divisionneuronal",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "test/test_entrenamiento.jl",
+      "source_location": "L1",
+      "weight": 1.0,
+      "context": "import",
+      "source": "test_test_entrenamiento",
+      "target": "test_test_entrenamiento_jl_test",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "source_file": "test/test_evaluador.jl",
+      "source_location": "L162",
+      "weight": 1.0,
+      "source": "test_test_evaluador",
+      "target": "test_test_evaluador_hacer_sub",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "test/test_evaluador.jl",
+      "source_location": "L2",
+      "weight": 1.0,
+      "context": "import",
+      "source": "test_test_evaluador",
+      "target": "test_test_evaluador_jl_divisionneuronal",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "test/test_evaluador.jl",
+      "source_location": "L1",
+      "weight": 1.0,
+      "context": "import",
+      "source": "test_test_evaluador",
+      "target": "test_test_evaluador_jl_test",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "test/test_generador.jl",
+      "source_location": "L2",
+      "weight": 1.0,
+      "context": "import",
+      "source": "test_test_generador",
+      "target": "test_test_generador_jl_divisionneuronal",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "test/test_generador.jl",
+      "source_location": "L1",
+      "weight": 1.0,
+      "context": "import",
+      "source": "test_test_generador",
+      "target": "test_test_generador_jl_test",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "test/test_integracion.jl",
+      "source_location": "L3",
+      "weight": 1.0,
+      "context": "import",
+      "source": "test_test_integracion",
+      "target": "test_test_integracion_jl_atomic",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "test/test_integracion.jl",
+      "source_location": "L2",
+      "weight": 1.0,
+      "context": "import",
+      "source": "test_test_integracion",
+      "target": "test_test_integracion_jl_divisionneuronal",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "test/test_integracion.jl",
+      "source_location": "L1",
+      "weight": 1.0,
+      "context": "import",
+      "source": "test_test_integracion",
+      "target": "test_test_integracion_jl_test",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "test/test_mapa_soluciones.jl",
+      "source_location": "L2",
+      "weight": 1.0,
+      "context": "import",
+      "source": "test_test_mapa_soluciones",
+      "target": "test_test_mapa_soluciones_jl_divisionneuronal",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "test/test_mapa_soluciones.jl",
+      "source_location": "L1",
+      "weight": 1.0,
+      "context": "import",
+      "source": "test_test_mapa_soluciones",
+      "target": "test_test_mapa_soluciones_jl_test",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "source_file": "test/test_mapa_soluciones.jl",
+      "source_location": "L53",
+      "weight": 1.0,
+      "source": "test_test_mapa_soluciones",
+      "target": "test_test_mapa_soluciones_make_subconfig",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "test/test_progreso.jl",
+      "source_location": "L3",
+      "weight": 1.0,
+      "context": "import",
+      "source": "test_test_progreso",
+      "target": "test_test_progreso_jl_atomic",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "test/test_progreso.jl",
+      "source_location": "L2",
+      "weight": 1.0,
+      "context": "import",
+      "source": "test_test_progreso",
+      "target": "test_test_progreso_jl_divisionneuronal",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "test/test_progreso.jl",
+      "source_location": "L1",
+      "weight": 1.0,
+      "context": "import",
+      "source": "test_test_progreso",
+      "target": "test_test_progreso_jl_test",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "test/test_propiedades.jl",
+      "source_location": "L716",
+      "weight": 1.0,
+      "context": "import",
+      "source": "test_test_propiedades",
+      "target": "test_test_propiedades_jl_atomic",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "test/test_propiedades.jl",
+      "source_location": "L3",
+      "weight": 1.0,
+      "context": "import",
+      "source": "test_test_propiedades",
+      "target": "test_test_propiedades_jl_divisionneuronal",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "test/test_propiedades.jl",
+      "source_location": "L2",
+      "weight": 1.0,
+      "context": "import",
+      "source": "test_test_propiedades",
+      "target": "test_test_propiedades_jl_propcheck",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "test/test_propiedades.jl",
+      "source_location": "L1",
+      "weight": 1.0,
+      "context": "import",
+      "source": "test_test_propiedades",
+      "target": "test_test_propiedades_jl_test",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "test/test_serializacion.jl",
+      "source_location": "L1",
+      "weight": 1.0,
+      "context": "import",
+      "source": "test_test_serializacion",
+      "target": "test_test_serializacion_jl_divisionneuronal",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "test/test_serializacion.jl",
+      "source_location": "L2",
+      "weight": 1.0,
+      "context": "import",
+      "source": "test_test_serializacion",
+      "target": "test_test_serializacion_jl_test",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "test/test_validacion.jl",
+      "source_location": "L2",
+      "weight": 1.0,
+      "context": "import",
+      "source": "test_test_validacion",
+      "target": "test_test_validacion_jl_divisionneuronal",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "test/test_validacion.jl",
+      "source_location": "L1",
+      "weight": 1.0,
+      "context": "import",
+      "source": "test_test_validacion",
+      "target": "test_test_validacion_jl_test",
+      "confidence_score": 1.0
+    }
+  ],
+  "hyperedges": [],
+  "built_at_commit": "f4e75a3d8b195effee7f7b668448d68242565a77"
+}
