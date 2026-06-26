@@ -30,7 +30,7 @@ JuliaLocalPreferences.toml
 .kiro
 csv/
 articulo/
-
+python/results/
 
 # graphify
 graphify-out/cache/
