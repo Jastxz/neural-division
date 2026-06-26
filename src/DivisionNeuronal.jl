@@ -3,6 +3,9 @@ module DivisionNeuronal
 # Tipos base
 include("tipos.jl")
 
+# Backend GPU (CPU / CUDA / ROCm)
+include("gpu_backend.jl")
+
 # Excepciones
 include("errores.jl")
 
@@ -78,5 +81,9 @@ export ResultadoSeleccion, calcular_score, seleccionar_mejor
 export TablaEmbedding, EsquemaEmbedding, RedBaseConEmbedding
 export crear_esquema, transformar, crear_red_con_embedding
 export evaluar_batch_subconfiguraciones
+
+# Exportar GPU backend
+export backend_actual, seleccionar_backend!, inicializar_gpu!
+export a_dispositivo, a_cpu, info_dispositivo
 
 end # module DivisionNeuronal
